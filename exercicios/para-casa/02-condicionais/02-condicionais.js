@@ -11,7 +11,7 @@ let adulto = false;
 let valorEntrada = 10;
 let valorMeiaEntrada;
 
-if (adulto) { // mexa apenas aqui
+if (!adulto) { // mexa apenas aqui: inserindo ! em adulto (cujo valor é false) para retornar true na condição
   valorMeiaEntrada = valorEntrada / 2;
 }
 
