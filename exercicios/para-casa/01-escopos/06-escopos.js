@@ -4,20 +4,22 @@
   ex: const resposta = 5;
 */
 console.clear(); //Irá limpar o terminal para você
-const resposta = 0; //insira o valor da final variável 'estudo' aqui
-let estudo = 10;
+const resposta = 10; //insira o valor da final variável 'estudo' aqui
+let estudo = 10; //inicialmente declarada com let e inicializada com o valor 10.
 const multiplicador = 2;
 
-{
+{ // foi declarada uma const estudo inicializada com valor 15
   const estudo = 15;
-  {
+  { // foi declarada uma nova variável estudo usando let com valor 11
     let estudo = 11;
-    estudo = 9;
-    {
+    estudo = 9; // foi reatribuída com valor 9
+    { // estudo recebe novo valor = "Olá!"
       estudo = "Olá!";
     }
   }
 }
+
+// aqui no escopo global, estudo permanece inalterado com valor 10. 
 
 if (estudo === resposta) {
   console.log("\nVocê acertou!\n");

@@ -4,10 +4,12 @@
   ex: const resposta = 5;
 */
 console.clear(); //Irá limpar o terminal para você
-const resposta = 0; //insira o valor da final variável 'estudo' aqui
-let estudo = 10;
+const resposta = 20; //insira o valor da final variável 'estudo' aqui
+let estudo = 10; //inicialmente declarada com let e inicializada com o valor 10.
 const multiplicador = 2;
 
+// na arrow function clojure estudo recebe o valor de 20.
+//no return é declarada uma nova variável estudo utilizando let, inicializada com valor 25.  
 const clojure = () => {
   estudo = 20;
   return () => {
@@ -15,8 +17,10 @@ const clojure = () => {
   }
 }
 
-const funcaoDaFuncao = clojure();
-funcaoDaFuncao();
+const funcaoDaFuncao = clojure(); // é declarada a const funcaoDaFuncao que recebe a função clojure
+funcaoDaFuncao(); // funcaoDaFuncao é chamada 
+
+// estudo vale 20. 
 
 if (estudo === resposta) {
   console.log("\nVocê acertou!\n");

@@ -4,14 +4,16 @@
   ex: const resposta = 5;
 */
 console.clear(); //Irá limpar o terminal para você
-const resposta = 0; //insira o valor da final variável 'estudo' aqui
-let estudo = 10;
+const resposta = 4; //insira o valor da final variável 'estudo' aqui
+let estudo = 10; //inicialmente declarada com let e inicializada com o valor 10.
 const multiplicador = 2;
 
+// === igualdade estrita
+// entra neste if pois a condição dele é verdadeira. (multiplicador === 2)
 if (multiplicador === 2) {
   estudo = 4;
 }
-
+// neste if não entra, pois multiplicador é !== de 2
 if (multiplicador === 1) {
   estudo = 2;
 }
