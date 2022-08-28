@@ -13,7 +13,7 @@ const multiplicador = 2;
   {
     let estudo = 11;
     estudo = 9;
-    {
+    {                      // atribuições só alteram a variaveis novas dentro do escopo, o valor final permanece inalterado
       estudo = "Olá!";
     }
   }

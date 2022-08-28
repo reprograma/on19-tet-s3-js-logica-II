@@ -18,7 +18,7 @@ const multiplicador = 2;
 }
 
 {
-  estudo = 3;
+  estudo = 3;  // <= ultima atribuilção de valor de estudo
   {
     let estudo = "Olá!";
   }

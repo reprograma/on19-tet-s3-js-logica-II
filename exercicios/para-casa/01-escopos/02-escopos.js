@@ -19,9 +19,9 @@ estudo = estudo - multiplicador;
 estudo += 2;
 
 estudo /= 2;
-
+// resultado das operações => valor de estudo => 1
 {
-  let estudo = 6;
+  let estudo = 6;  // não altera a variavel original, só define variavel nova, valida apenas dentro das aspas
 }
 
 if (estudo === resposta) {

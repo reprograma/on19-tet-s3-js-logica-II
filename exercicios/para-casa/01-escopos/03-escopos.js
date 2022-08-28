@@ -22,7 +22,7 @@ const multiplicador = 2;
   estudo /= 2;
 }
 
-estudo = 6;
+estudo = 6; // <= ultima atribuilção de valor de estudo, ignorar resto do codigo
 
 if (estudo === resposta) {
   console.log("\nVocê acertou!\n");

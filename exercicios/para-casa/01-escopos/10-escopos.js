@@ -8,10 +8,10 @@ const resposta = 10; //insira o valor da final variável 'estudo' aqui
 let estudo = 10;
 const multiplicador = 2;
 
-if (estudo !== 10) {
-  let estudo = 20
+if (estudo !== 10) {  // <= não altera a atribuição da variavel inicial 
+  let estudo = 20     // <= não altera a atribuição da variavel inicial 
 } else {
-  const estudo = 0;
+  const estudo = 0;   // <= não altera a atribuição da variavel inicial
 }
 
 if (estudo === resposta) {

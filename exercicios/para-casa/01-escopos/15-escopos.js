@@ -17,7 +17,7 @@ estudo = estudo * estudo / estudo + estudo + estudo + estudo * estudo - estudo /
   {
 
   }
-  estudo = "Acabou!";
+  estudo = "Acabou!"; // <= ultima atribuição do valor de estudo, operações acima dessa linha são irrelevantes
 }
 
 if (estudo === resposta) {

@@ -22,7 +22,7 @@ if (estudo === 10) {
             estudo = 11;
             if (estudo === 11) {
               estudo = 11;
-              if (estudo !== 11) {
+              if (estudo !== 11) { // <= ! faz ifs pararem aqui, mantendo o valor como 11
                 estudo = 11;
                 if (estudo === 11) {
                   estudo = 11;
@@ -50,7 +50,7 @@ if (estudo === 10) {
     }
   }
 }
-
+console.log(estudo)
 if (estudo === resposta) {
   console.log("\nVocê acertou!\n");
 } else {

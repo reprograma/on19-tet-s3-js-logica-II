@@ -9,7 +9,7 @@ let estudo = 10;
 const multiplicador = 2;
 
 if (multiplicador === 2) {
-  estudo = 4;
+  estudo = 4;  // <= ultima atribuilção de valor de estudo
 }
 
 if (multiplicador === 1) {

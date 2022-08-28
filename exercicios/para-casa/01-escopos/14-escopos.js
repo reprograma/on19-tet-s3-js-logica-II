@@ -8,7 +8,7 @@ const resposta = NaN; //insira o valor da final variável 'estudo' aqui
 let estudo = 10;
 const multiplicador = 2;
 
-estudo = "Olá" / 500;
+estudo = "Olá" / 500; // <= operação matematica com elementos não numericos resulta em NaN
 
 if (Number.isNaN(estudo)) {
   console.log("\nVocê acertou!\n");

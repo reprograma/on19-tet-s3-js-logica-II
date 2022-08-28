@@ -45,13 +45,13 @@ const playRound = (player, computer) => {
     case 'pedra':
         switch(player){
             case 'pedra':
-              console.log('empate!');
+              console.log('Empate!');
               break;
             case 'papel':
-              console.log('papel come pedra, você ganhou!');
+              console.log('Papel come pedra, você ganhou!');
               break;
             case 'tesoura':
-              console.log('pedra quebra tesoura, você perdeu!');
+              console.log('Pedra quebra tesoura, você perdeu!');
               break;
             case 'petra':
               console.log('Petra ganha de tudo, você ganhou!')
@@ -61,13 +61,13 @@ const playRound = (player, computer) => {
     case 'papel':
         switch(player){
             case 'pedra':
-                console.log('papel eats pedra, você perdeu!');
+                console.log('Papel eats pedra, você perdeu!');
                 break;
             case 'papel':
-                console.log('empate!');
+                console.log('Empate!');
                 break;
             case 'tesoura':
-                console.log('papel é dilacerado pela tesoura, você ganhou!');
+                console.log('Papel é dilacerado pela tesoura, você ganhou!');
                 break;
             case 'petra':
               console.log('Petra ganha de tudo, você venceu!')
@@ -77,23 +77,23 @@ const playRound = (player, computer) => {
     case 'tesoura':
         switch(player){
             case 'pedra':
-              console.log('pedra quebra tesoura, você ganhou!');             
+              console.log('Pedra quebra tesoura, você ganhou!');             
                 break;
             case 'papel':
-              console.log('papel é dilacerado pela tesoura, você perdeu!');           
+              console.log('Papel é dilacerado pela tesoura, você perdeu!');           
                 break;
             case 'tesoura':
-              console.log('tesoura com tesoura também é bacana, todo mundo vence!💕');
+              console.log('Tesoura com tesoura também é bacana, todo mundo vence!💕');
                 break;
             case 'petra':
-              console.log('tesoura é a única coisa capaz de furar a pele macia de Petra, você perdeu! e o mundo todo também 🤧')
+              console.log('Tesoura é a única coisa capaz de furar a pele macia de Petra, você perdeu! e o mundo todo também 🤧')
               break;
         }
         break;
     case 'petra':
         switch(player){
             case 'tesoura':
-                console.log('tesoura é a única coisa capaz de furar a pele macia de Petra, você ganhou? se você considera assassinato uma vitória...')
+                console.log('Tesoura é a única coisa capaz de furar a pele macia de Petra. Todas perdem com essa violência 🤕')
                 break;
             case 'papel' || 'pedra':
                 console.log('Petra ganha de tudo, você perdeu!')

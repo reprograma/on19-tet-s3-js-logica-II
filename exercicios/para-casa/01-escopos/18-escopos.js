@@ -9,9 +9,10 @@ let estudo = 10;
 const multiplicador = 2;
 
 const clojure = () => {
-  estudo = 20;
+  estudo = 20;  // <= atribui valor à variavel fora da função
   return () => {
-    let estudo = 25;
+    let estudo = 25; // <= cria uma variavel local que não pode ser chamada fora da função
+    
   }
 }
 

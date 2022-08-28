@@ -10,9 +10,9 @@ const multiplicador = 2;
 
 const testar = (valor) => {
   if (valor === 5) {
-    let estudo = 11;
+    let estudo = 11; // <= cria variavel local à função
   } else {
-    estudo = 44;
+    estudo = 44; // <= atribui valor final da const resposta
   }
 }
 

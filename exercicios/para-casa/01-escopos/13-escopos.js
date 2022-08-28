@@ -4,7 +4,7 @@
   ex: const resposta = 5;
 */
 console.clear(); //Irá limpar o terminal para você
-const resposta = undefined; //insira o valor da final variável 'estudo' aqui
+const resposta = undefined; //valor da const não é alterada durante o codigo, por padrão uma variavel nova recebe o valor 'undefined'
 let estudo;
 const multiplicador = 2;
 

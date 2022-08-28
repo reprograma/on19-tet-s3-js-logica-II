@@ -11,7 +11,7 @@ const multiplicador = 2;
 if (estudo === 10) {
   estudo = 20;
   if (estudo === 20) {
-    estudo = 35;
+    estudo = 35; // <= ultima atribuição do valor de estudo
   } else {
     estudo = 14;
   }
