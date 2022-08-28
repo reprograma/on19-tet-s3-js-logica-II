@@ -9,8 +9,17 @@
 const myArgs = process.argv.slice(2);
 const myArgs1 = myArgs[0];
 
+let result = 0
 const funcaoRecursiva = (numero1) => { // É obrigatório usar essa função com os parâmetros
-  console.log(numero1);
+  result += +numero1
+  let numberMinus = numero1 - 1;
+  
+  if (numberMinus > 0) {
+    funcaoRecursiva(numberMinus);
+  } else {
+    console.log(result);
+  }
 }
-
 funcaoRecursiva(myArgs1);
+
+

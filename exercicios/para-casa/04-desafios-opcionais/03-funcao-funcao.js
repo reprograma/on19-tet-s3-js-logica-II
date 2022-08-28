@@ -3,7 +3,11 @@
 */
 
 const primeiraFuncao = () => {
-
+  return function segundaFuncao() {
+    return function terceiraFuncao(a, b) {
+      console.log(a + b)
+    }
+  };
 }
 
 const segundaFuncao = primeiraFuncao();

@@ -12,9 +12,17 @@ const readline = require('readline').createInterface({
 
 readline.question('\nVamos ver se vc passou! Qual a primeira nota?\n', nota1 => {
   readline.question('\nQual a segunda nota?\n', nota2 => {
-
-    console.log(nota1, nota2);
-
+    let media = (+nota1 + +nota2) / 2
+    
+    console.log('Primeira nota: ' + nota1, '\nSegunda nota: ' + nota2, '\nMédia: ' + media);
+    console.log(media);
+    if (media >= 6) {
+      console.log("Aprovada, gata!")
+    } else if (media >= 5) {
+      console.log("Recuperação 🤕")
+    } else {
+      console.log("Reprovada 🤧")
+    }
     readline.close();
   });
 });

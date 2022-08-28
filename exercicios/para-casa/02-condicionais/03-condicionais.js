@@ -11,7 +11,7 @@ let valorMeiaEntrada;
 //Pessoa 1: é adulto, mas estudante, dê meia entrada
 let adulto = true;
 let estudante = true;
-const condicional = () => estudante || adulto; // <=== mexa apenas aqui
+const condicional = () => estudante || !adulto; // <=== mexa apenas aqui: correção para condição, deve retornar true se adulto for falso
 if (condicional()) {
   valorMeiaEntrada = valorEntrada / 2;
 } else {

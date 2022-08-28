@@ -4,7 +4,7 @@
   ex: const resposta = 5;
 */
 console.clear(); //Irá limpar o terminal para você
-const resposta = 0; //insira o valor da final variável 'estudo' aqui
+const resposta = 10; //insira o valor da final variável 'estudo' aqui
 let estudo = 10;
 const multiplicador = 2;
 
@@ -13,7 +13,7 @@ const multiplicador = 2;
   {
     let estudo = 11;
     estudo = 9;
-    {
+    {                      // atribuições só alteram a variaveis novas dentro do escopo, o valor final permanece inalterado
       estudo = "Olá!";
     }
   }

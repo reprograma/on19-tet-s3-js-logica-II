@@ -17,7 +17,7 @@ if (x >= 1) {
     if (y === 11) {
       resp = 'Falhou';
     } else {
-      if (z) {  // <== mudando pra !z dá certo!
+      if (!z) {  // <== mudando pra !z dá certo!
         resp = 'Falhou';
       } else {
         resp = 'Eba!';
