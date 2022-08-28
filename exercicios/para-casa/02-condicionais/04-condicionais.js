@@ -18,7 +18,7 @@ readline.question('\nChuta um número de um a dez!\n', chute => {
     console.log('errado :(')
   }
   else {
-    console.log('valor fora do escopo pedido, preste mais atenção na leitura do enunciado menina 😒')
+    console.log('valor fora do escopo pedido, preste mais atenção na leitura do enunciado, menina 😒')
   }
   readline.close();
 });

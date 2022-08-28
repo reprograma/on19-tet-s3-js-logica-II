@@ -50,7 +50,7 @@ if (estudo === 10) {
     }
   }
 }
-console.log(estudo)
+
 if (estudo === resposta) {
   console.log("\nVocê acertou!\n");
 } else {
