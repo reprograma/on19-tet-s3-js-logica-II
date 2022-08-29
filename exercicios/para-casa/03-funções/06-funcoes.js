@@ -6,13 +6,19 @@
 */
 
 //Não se preocupe com essas três linhas, vamos aprender semana que vem.
-const myArgs = process.argv.slice(2);
-const myArgs1 = myArgs[0];
+//const myArgs = process.argv.slice(2);
+//const myArgs1 = myArgs[0];
 
-const gerarFuncao = () => { // É obrigatório usar essa função com os parâmetros
+ const gerarFuncao = (diametro) => { // É obrigatório usar essa função com os parâmetros
   const PI = 3.14;
-  console.log(PI);
+    let resultado = PI * diametro
+  return resultado  
+  
+  //console.log(PI);
 }
+const calcularCircunferencia = gerarFuncao(10);
+//calcularCircunferencia(myArgs1);
+console.log(calcularCircunferencia.toFixed(2))
 
-const calcularCircunferencia = gerarFuncao();
-calcularCircunferencia(myArgs1);
+
+

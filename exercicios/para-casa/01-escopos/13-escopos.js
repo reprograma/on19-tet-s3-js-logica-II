@@ -4,8 +4,8 @@
   ex: const resposta = 5;
 */
 console.clear(); //Irá limpar o terminal para você
-const resposta = 0; //insira o valor da final variável 'estudo' aqui
-let estudo;
+const resposta = undefined; //insira o valor da final variável 'estudo' aqui
+let estudo; //inicialmente declarada com let.
 const multiplicador = 2;
 
 {
@@ -22,6 +22,10 @@ const multiplicador = 2;
     const estudo = 6;
   }
 }
+
+// a variável estudo foi declarada no escopo global mas não foi inicializada. 
+// dentro do bloco outras variáveis foram declaradas com valores distintos. 
+// o valor de estudo permaneceu undefined já que nenhum valor foi atribuído a ele. 
 
 if (estudo === resposta) {
   console.log("\nVocê acertou!\n");

@@ -4,22 +4,24 @@
   ex: const resposta = 5;
 */
 console.clear(); //Irá limpar o terminal para você
-const resposta = 0; //insira o valor da final variável 'estudo' aqui
-var estudo = 10;
+const resposta = 24; //insira o valor da final variável 'estudo' aqui
+var estudo = 10; //inicialmente declarada com var e inicializada com o valor 10.
 const multiplicador = 2;
 
-{
+{ //estudo reatribuído com valor 2
   estudo = 2;
-  {
+  { //estudo reatribuído com valor 6
     estudo = 6;
-    {
+    { //estudo reatribuído com valor 7
       estudo = 7;
-      {
+      { // estudo declarado novamente utilizando var, alterando a variável declarada anteriormente no escopo global. 
         var estudo = 24;
       }
     }
   }
 }
+
+// aqui no escopo global foi alterado o valor da variável por conta do uso da var, passando a valer 24.
 
 if (estudo === resposta) {
   console.log("\nVocê acertou!\n");

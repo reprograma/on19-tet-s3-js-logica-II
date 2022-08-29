@@ -11,7 +11,7 @@ let adulto = false;
 let valorEntrada = 10;
 let valorMeiaEntrada;
 
-if (adulto) { // mexa apenas aqui
+if (!adulto) { // mexa apenas aqui
   valorMeiaEntrada = valorEntrada / 2;
 }
 
@@ -20,6 +20,8 @@ if (valorMeiaEntrada === 5) {
 } else {
   console.log("\nTente de novo!\n");
 }
+
+// foi necessário alterar a condição no if através do operador NOT (!) convertendo o valor de false em true. 
 
 /*
   Você consegue justificar sua resposta?

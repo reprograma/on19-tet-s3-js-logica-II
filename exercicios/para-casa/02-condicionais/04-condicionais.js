@@ -10,8 +10,12 @@ const readline = require('readline').createInterface({
 });
 
 readline.question('\nChuta um número de um a dez!\n', chute => {
-
-  console.log(chute);
+  if (+chute === 7) { // foi necessário implementar a condição adequada para imprimir as mensagens.
+    console.log(`Wow! Que sagaz, acertou o número perfeito: ${chute}`);
+  } else {
+    console.log("erro")
+  }
+  
 
   readline.close();
 });

@@ -7,12 +7,21 @@
 */
 
 //Não se preocupe com essas três linhas, vamos aprender semana que vem.
-const myArgs = process.argv.slice(2);
-const myArgs1 = myArgs[0];
-const myArgs2 = myArgs[1];
+//const myArgs = process.argv.slice(2);
+//const myArgs1 = myArgs[0];
+//const myArgs2 = myArgs[1];
 
 const calcularDiasDeVida = (idade, nome) => { // É obrigatório usar essa função com os parâmetros
-  console.log(idade, nome);
+  
+  let diasDeVida = idade * 365
+  console.log(`${nome} já viveu ${diasDeVida} dias!`)
+  
+  
+  //console.log(idade, nome);
 }
 
-calcularDiasDeVida(myArgs1, myArgs2);
+calcularDiasDeVida(35, "Amozinha")
+calcularDiasDeVida(29, "Irmã")
+//calcularDiasDeVida(myArgs1, myArgs2);
+
+
