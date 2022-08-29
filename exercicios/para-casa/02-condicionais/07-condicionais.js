@@ -11,8 +11,12 @@ const readline = require('readline').createInterface({
 
 readline.question('\nQuando anos você tem?\n', idade => {
   readline.question('\nVocê é estudante? (Sim, Não)\n', estudante => {
-
-    console.log(idade, estudante);
+    if(idade < 18 || estudante.toUpperCase === "Sim") { // condição adequada para contemplar ambos os casos. toUpperCase foi usado para validar dado na comparação. 
+      console.log("HazÔ, você tem direito a meia entrada! Aproveite.")
+    } else {
+      console.log("Ops, você não tem mais o direito a meia entrada. Bem vinde ao mundo dos adultos, ou não! rsrs")
+    }
+    //console.log(idade, estudante);
 
     readline.close();
   });

@@ -10,7 +10,11 @@ const readline = require('readline').createInterface({
 });
 
 readline.question('\nDiga o número e te direi se é impar ou par!\n', numero => {
-
+  if(+numero % 2 === 0) { // verifica se o resto da divisão é igual a 0. Se sim, ele é par. Caso contrário ele é impar. 
+    console.log("O número é par!")
+  } else {
+    console.log("O número é impar!")
+  }
   console.log(numero);
 
   readline.close();

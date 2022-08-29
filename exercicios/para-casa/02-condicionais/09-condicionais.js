@@ -12,14 +12,16 @@ const readline = require('readline').createInterface({
 
 readline.question('\nVamos ver se vc passou! Qual a primeira nota?\n', nota1 => {
   readline.question('\nQual a segunda nota?\n', nota2 => {
-
-    console.log(nota1, nota2);
+    let media = ((+nota1) + (+nota2))/2
+    if( media >= 6) {
+      console.log('Yes! Você está aprovade!')
+    } else if ( media >= 5) {
+      console.log('Atenção, você ficou de recuperação. Se dedique mais para passar.')
+    } else {
+      console.log('Poxa, você foi reprovade.')
+    }
+    // console.log(nota1, nota2);
 
     readline.close();
   });
-});
-
-readline.on('close', () => {
-  console.log('\nEstude muito sempre!');
-  process.exit(0);
 });
