@@ -6,11 +6,16 @@
 */
 
 //Não se preocupe com essas três linhas, vamos aprender semana que vem.
-const myArgs = process.argv.slice(2);
-const myArgs1 = myArgs[0];
+//const myArgs = process.argv.slice(2);
+//const myArgs1 = myArgs[0];
 
 const funcaoRecursiva = (numero1) => { // É obrigatório usar essa função com os parâmetros
   console.log(numero1);
+  if(numero1 <= 1)
+    return numero1
+  return numero1 + funcaoRecursiva(numero1 - 1)
 }
 
-funcaoRecursiva(myArgs1);
+console.log(funcaoRecursiva(5))
+
+//funcaoRecursiva(myArgs1);
