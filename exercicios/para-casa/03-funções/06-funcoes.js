@@ -14,5 +14,10 @@ const gerarFuncao = () => { // É obrigatório usar essa função com os parâme
   console.log(PI);
 }
 
-const calcularCircunferencia = gerarFuncao();
+const calcularCircunferencia = (diameter) => {
+  const PI = 3.14
+  const perimeter = PI * diameter
+
+  console.log (perimeter)
+};
 calcularCircunferencia(myArgs1);
