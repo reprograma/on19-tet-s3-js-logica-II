@@ -4,24 +4,38 @@
   ex: const resposta = 5;
 */
 console.clear(); //Irá limpar o terminal para você
-const resposta = 0; //insira o valor da final variável 'estudo' aqui
+const resposta = 1; //insira o valor da final variável 'estudo' aqui
 let estudo = 10;
 const multiplicador = 2;
 
 estudo = 1;
+console.log(estudo)
 
-estudo = multiplicador * estudo;
+estudo = multiplicador * estudo; // 2 * 1 = 2
 
-estudo = estudo * estudo / estudo;
+console.log(estudo)
 
-estudo = estudo - multiplicador;
 
-estudo += 2;
+estudo = estudo * estudo / estudo; // (2 * 2) / 2 = 2
+console.log(estudo)
 
-estudo /= 2;
+
+estudo = estudo - multiplicador; // 2 - 2 = 0
+console.log(estudo)
+
+
+estudo += 2; // 0 + 2 = 2
+console.log(estudo)
+
+
+estudo /= 2; // 2 / 2 = 1
+console.log(estudo) // aqui foi a minha ultima variavel de escopo global de valor 1 
+
 
 {
-  let estudo = 6;
+  let estudo = 6; // só consigo acessar essa variavel aqui no escopo local 
+  console.log(estudo)
+
 }
 
 if (estudo === resposta) {
