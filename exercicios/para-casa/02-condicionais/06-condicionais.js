@@ -7,16 +7,19 @@
 const readline = require('readline').createInterface({
   input: process.stdin,
   output: process.stdout
-});
+})
 
 readline.question('\nDiga o número e te direi se é impar ou par!\n', numero => {
+  if (numero % 2 == 0) {
+    console.log('É par')
+  } else {
+    console.log('É ímpar')
+  }
 
-  console.log(numero);
-
-  readline.close();
-});
+  readline.close()
+})
 
 readline.on('close', () => {
-  console.log('\nObrigada por jogar!');
-  process.exit(0);
-});
+  console.log('\nObrigada por jogar!')
+  process.exit(0)
+})

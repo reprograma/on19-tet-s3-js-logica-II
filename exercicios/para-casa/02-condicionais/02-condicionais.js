@@ -3,22 +3,22 @@
   corrija as condições para atingir o resultado desejado!
   Deverá resultar em 'Você acertou' no terminal
 */
-console.clear(); //Irá limpar o terminal para você
-
+console.clear() //Irá limpar o terminal para você
 
 //Ceda meia entrada para quem não for adulto
-let adulto = false;
-let valorEntrada = 10;
-let valorMeiaEntrada;
+let adulto = false
+let valorEntrada = 10
+let valorMeiaEntrada
 
-if (adulto) { // mexa apenas aqui
-  valorMeiaEntrada = valorEntrada / 2;
+if (!adulto) {
+  // mexa apenas aqui: adiciona ! (negando a condição), resultando no valor da variavel adulto verdadeira
+  valorMeiaEntrada = valorEntrada / 2
 }
 
 if (valorMeiaEntrada === 5) {
-  console.log("\nVocê acertou!\n");
+  console.log('\nVocê acertou!\n')
 } else {
-  console.log("\nTente de novo!\n");
+  console.log('\nTente de novo!\n')
 }
 
 /*
@@ -27,4 +27,3 @@ if (valorMeiaEntrada === 5) {
   ex:
   if (estudo !== resposta) { //as variáveis devem ser diferentes para entrar no if
 */
-

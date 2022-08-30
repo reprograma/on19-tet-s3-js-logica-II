@@ -7,18 +7,22 @@
 const readline = require('readline').createInterface({
   input: process.stdin,
   output: process.stdout
-});
+})
 
 readline.question('\nQuando anos você tem?\n', idade => {
   readline.question('\nVocê é estudante? (Sim, Não)\n', estudante => {
+    console.log(idade, estudante)
+    if (idade < 18 || estudande == 'sim') {
+      console.log('Você tem direito a meia-entrada')
+    } else {
+      console.log('Você paga inteira')
+    }
 
-    console.log(idade, estudante);
-
-    readline.close();
-  });
-});
+    readline.close()
+  })
+})
 
 readline.on('close', () => {
-  console.log('\nBom filme!');
-  process.exit(0);
-});
+  console.log('\nBom filme!')
+  process.exit(0)
+})
