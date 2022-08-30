@@ -8,7 +8,7 @@ console.clear(); //Irá limpar o terminal para você
 const resposta = 20;
 const estudo = 10;
 
-if (estudo === resposta) { // mexa apenas aqui
+if (estudo != resposta) { // mexa apenas aqui. mudei os operadores para o de não igual, não acho que nesse caso seria necessário comparar se são estritamente não iguais. 
   console.log("\nVocê acertou!\n");
 } else {
   console.log("\nTente de novo!\n");
