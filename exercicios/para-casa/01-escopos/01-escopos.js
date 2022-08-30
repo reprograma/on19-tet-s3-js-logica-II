@@ -4,21 +4,26 @@
   ex: const resposta = 5;
 */
 console.clear(); //Irá limpar o terminal para você
-const resposta = 0; //insira o valor da final variável 'estudo' aqui
+const resposta = 6; //insira o valor da final variável 'estudo' aqui
 let estudo = 10;
 const multiplicador = 2;
 
-estudo = 1;
+estudo = 1; // reatribui o valor da let da linha 8
 
-estudo = multiplicador * estudo;
+estudo = multiplicador * estudo; // aqui multiplicou 2 * 1 = 2 
+console.log(estudo)
 
-estudo = estudo * estudo / estudo;
+estudo = estudo * estudo / estudo; // estudo passou a valer 2 (linha 13). (2 * 2) / 2 = 2
+console.log(estudo)
 
-estudo = estudo - multiplicador;
+estudo = estudo - multiplicador; // estudo passou a valer 2 (linha 16). 2 - 2 = 0
+console.log(estudo)
 
-estudo += 2;
+estudo += 2; // 0 + 2 = 2
+console.log (estudo)
 
-estudo /= 2;
+estudo /= 2; // 2 / 2 = 1
+console.log(estudo)
 
 estudo = 6;
 
