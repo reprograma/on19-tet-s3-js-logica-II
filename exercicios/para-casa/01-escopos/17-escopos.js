@@ -11,7 +11,7 @@ const multiplicador = 2;
 const clojure = () => {
   estudo = 20;
   return () => {
-    estudo = 25;
+    estudo = 25; //ult atrib de valor
   }
 }
 

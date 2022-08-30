@@ -16,7 +16,7 @@ const testar = (valor) => {
   }
 }
 
-testar(7);
+testar(7); //ultima atrib de valor global
 testar(5);
 
 if (estudo === resposta) {

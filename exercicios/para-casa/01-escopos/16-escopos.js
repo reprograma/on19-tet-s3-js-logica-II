@@ -22,7 +22,7 @@ if (estudo === 10) {
             estudo = 11;
             if (estudo === 11) {
               estudo = 11;
-              if (estudo !== 11) {
+              if (estudo !== 11) { //sinal de diferente
                 estudo = 11;
                 if (estudo === 11) {
                   estudo = 11;

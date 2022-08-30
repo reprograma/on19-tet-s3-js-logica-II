@@ -8,7 +8,7 @@ const resposta = 4; //insira o valor da final variável 'estudo' aqui
 let estudo = 10;
 const multiplicador = 2;
 
-if (multiplicador === 2) {
+if (multiplicador === 2) { //unico if q entra
   estudo = 4;
 }
 

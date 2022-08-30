@@ -15,7 +15,7 @@ const multiplicador = 2;
     {
       estudo = 7;
       {
-        var estudo = 24;
+        var estudo = 24; //não entendi pq 24 :v
       }
     }
   }

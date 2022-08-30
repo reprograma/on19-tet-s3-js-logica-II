@@ -11,7 +11,7 @@ const multiplicador = 2;
 if (estudo !== 10) {
   let estudo = 20
 } else {
-  const estudo = 0;
+  const estudo = 0; //entra no elsa, mas nao modifica fora do escopo
 }
 
 if (estudo === resposta) {

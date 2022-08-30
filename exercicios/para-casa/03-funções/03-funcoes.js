@@ -11,7 +11,14 @@ const myArgs1 = myArgs[0];
 const myArgs2 = myArgs[1];
 
 const converterRealParaDolar = (reais, cotação) => { // É obrigatório usar essa função com os parâmetros
-  console.log(reais, cotação);
+
+  const money = Number(reais)
+  const cota = Number(cotação)
+
+  const dolar = money/cota
+
+  console.log ('Voce recebera', dolar, 'dolar(s)')
+
 }
 
 converterRealParaDolar(myArgs1, myArgs2);

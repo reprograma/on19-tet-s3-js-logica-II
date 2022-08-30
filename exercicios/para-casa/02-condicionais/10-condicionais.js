@@ -14,6 +14,19 @@ readline.question('\nQuanto é o valor a ser calculado?\n', valor => {
 
   console.log(valor);
 
+  let price = Number (valor)
+
+  if (price >= 500){
+    price *= 0.8
+    console.log ('Discount: 20%')
+  }
+  else if (price >= 100){
+    price *= 0.9
+    console.log ('Discount: 10%')
+  }
+
+  console.log ('Final price:', price)
+
   readline.close();
 });
 

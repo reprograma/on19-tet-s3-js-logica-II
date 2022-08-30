@@ -18,7 +18,7 @@ estudo = estudo - multiplicador;
 
 estudo += 2;
 
-estudo /= 2;
+estudo /= 2; //ultima mudança nesse escopo
 
 {
   let estudo = 6;

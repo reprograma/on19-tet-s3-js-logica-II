@@ -5,7 +5,7 @@
 */
 console.clear(); //Irá limpar o terminal para você
 const resposta = undefined; //insira o valor da final variável 'estudo' aqui
-let estudo;
+let estudo; //não tem declaração ed valor
 const multiplicador = 2;
 
 {

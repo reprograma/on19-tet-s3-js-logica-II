@@ -17,7 +17,7 @@ const testar = (valor) => {
 }
 
 {
-  let estudo = 5;
+  let estudo = 5; //nenhuma atrib de valor global
   testar(estudo);
 }
 

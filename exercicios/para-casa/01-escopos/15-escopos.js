@@ -17,7 +17,7 @@ estudo = estudo * estudo / estudo + estudo + estudo + estudo * estudo - estudo /
   {
 
   }
-  estudo = "Acabou!";
+  estudo = "Acabou!"; //ultima atrib global
 }
 
 if (estudo === resposta) {

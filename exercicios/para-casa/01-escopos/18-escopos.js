@@ -9,7 +9,7 @@ let estudo = 10;
 const multiplicador = 2;
 
 const clojure = () => {
-  estudo = 20;
+  estudo = 20; //ult atrib de valor
   return () => {
     let estudo = 25;
   }

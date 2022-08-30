@@ -13,6 +13,13 @@ readline.question('\nDiga o número e te direi se é impar ou par!\n', numero =>
 
   console.log(numero);
 
+  if ((numero % 2) == 0) {
+    console.log ('é par')
+  }
+  else {
+    console.log ('é impar')
+  }
+
   readline.close();
 });
 
