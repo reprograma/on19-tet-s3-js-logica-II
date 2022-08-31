@@ -4,17 +4,17 @@
   ex: const resposta = 5;
 */
 console.clear(); //Irá limpar o terminal para você
-const resposta = 0; //insira o valor da final variável 'estudo' aqui
-let estudo = 10;
+const resposta = 10; //insira o valor da final variável 'estudo' aqui
+let estudo = 10; // DEFINIÇÃO DE VARIAVEL EM ESCOPO GLOBAL (NÃO HOUVE REATRIBUIÇÃO)
 const multiplicador = 2;
 
 {
-  const estudo = 15;
+  const estudo = 15; // DEFINIÇÃO DE VARIAVEL CONST EM ESCOPO LOCAL, NÃO PODE SER ALTERADA 
   {
-    let estudo = 11;
-    estudo = 9;
+    let estudo = 11; //  DEFINIÇÃO DE NOVA VARIAVEL EM ESCOPO LOCAL
+    estudo = 9;// REATRIBUIÇÃO DE VARIAVEL DE ESCOPO LOCAL ESTUDO PARA 9
     {
-      estudo = "Olá!";
+      estudo = "Olá!"; // REATRIBUIÇÃO DE VARIAVEL DE ESCOPO LOCAL ESTUDO PARA "Ola!"
     }
   }
 }

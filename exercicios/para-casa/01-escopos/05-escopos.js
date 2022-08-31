@@ -4,23 +4,23 @@
   ex: const resposta = 5;
 */
 console.clear(); //Irá limpar o terminal para você
-const resposta = 0; //insira o valor da final variável 'estudo' aqui
-let estudo = 10;
+const resposta = 3; //insira o valor da final variável 'estudo' aqui
+let estudo = 10; // DEFINIÇÃO DE VARIAVEL EM ESCOPO GLOBAL
 const multiplicador = 2;
 
 {
-  let estudo = 3;
+  let estudo = 3; // DEFINIÇÃO DE NOVA VARIAVEL EM ESCOPO LOCAL
 }
 
 {
-  let estudo = 6;
-  estudo = 0;
+  let estudo = 6;// DEFINIÇÃO DE NOVA VARIAVEL EM ESCOPO LOCAL
+  estudo = 0; // REATRIBUIÇÃO DE VARIAVEL DE ESCOPO LOCAL ESTUDO PARA 0
 }
 
 {
-  estudo = 3;
+  estudo = 3; // REATRIBUIÇÃO DA VARIAVEL ESTUDO PARA 3 (RESULTADO FINAL 3)
   {
-    let estudo = "Olá!";
+    let estudo = "Olá!"; // DEFINIÇÃO DE NOVA VARIAVEL EM ESCOPO LOCAL
   }
 }
 

@@ -4,12 +4,11 @@
   ex: const resposta = 5;
 */
 console.clear(); //Irá limpar o terminal para você
-const resposta = 0; //insira o valor da final variável 'estudo' aqui
-let estudo = 10;
+const resposta = NaN; //insira o valor da final variável 'estudo' aqui
+let estudo = 10; // DEFINIÇÃO DE VARIAVEL EM ESCOPO GLOBAL 
 const multiplicador = 2;
 
-estudo = "Olá" / 500;
-
+estudo = "Olá" / 500; // VARIAVEL PASSA A SER NaN, Not-A-Number PORQUE O RESULTADO DE UMA STRING DIVIDIDA POR UM NÚMERO, NÃO VAI SER UM NÚMERO 
 if (Number.isNaN(estudo)) {
   console.log("\nVocê acertou!\n");
 } else {

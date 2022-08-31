@@ -4,15 +4,15 @@
   ex: const resposta = 5;
 */
 console.clear(); //Irá limpar o terminal para você
-const resposta = 0; //insira o valor da final variável 'estudo' aqui
-let estudo = 10;
+const resposta = 35; //insira o valor da final variável 'estudo' aqui
+let estudo = 10; // DEFINIÇÃO DE VARIAVEL EM ESCOPO GLOBAL 
 const multiplicador = 2;
 
-if (estudo === 10) {
-  estudo = 20;
-  if (estudo === 20) {
-    estudo = 35;
-  } else {
+if (estudo === 10) { // COMPARAÇÃO VERDADEIRA ENTÃO O VALOR PASSA A SER 20
+  estudo = 20; // REATRIBUIÇÃO DA VARIAVEL ESTUDO PARA 20
+  if (estudo === 20) { // COMPARAÇÃO VERDADEIRA ENTÃO O VALOR PASSA A SER 35
+    estudo = 35;// REATRIBUIÇÃO DA VARIAVEL ESTUDO PARA 35 (VALOR FINAL 35)
+  } else {  
     estudo = 14;
   }
 }

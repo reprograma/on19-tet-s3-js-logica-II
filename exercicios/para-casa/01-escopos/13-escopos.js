@@ -4,22 +4,22 @@
   ex: const resposta = 5;
 */
 console.clear(); //Irá limpar o terminal para você
-const resposta = 0; //insira o valor da final variável 'estudo' aqui
-let estudo;
+const resposta = undefined; //insira o valor da final variável 'estudo' aqui
+let estudo; // DECLARAÇÃO DE VARIAVEL SEM VALOR INICIAL DEFINIDO 
 const multiplicador = 2;
 
 {
   {
     {
-      let estudo = 0;
+      let estudo = 0; // NOVA DEFINIÇÃO DE VARIAVEL EM ESCOPO LOCAL 
       {
         {
-          let estudo = 7;
+          let estudo = 7; // NOVA DEFINIÇÃO DE VARIAVEL EM ESCOPO LOCAL 
         }
-        const estudo = 9;
+        const estudo = 9; // NOVA DEFINIÇÃO DE VARIAVEL EM ESCOPO LOCAL (NÃO PODE SER ALTERADA )
       }
     }
-    const estudo = 6;
+    const estudo = 6;// NOVA DEFINIÇÃO DE VARIAVEL EM ESCOPO LOCAL (NÃO PODE SER ALTERADA )
   }
 }
 

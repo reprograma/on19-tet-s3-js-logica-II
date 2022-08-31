@@ -4,14 +4,14 @@
   ex: const resposta = 5;
 */
 console.clear(); //Irá limpar o terminal para você
-const resposta = 0; //insira o valor da final variável 'estudo' aqui
-let estudo = 10;
+const resposta = 25; //insira o valor da final variável 'estudo' aqui
+let estudo = 10;// DEFINIÇÃO DE VARIAVEL EM ESCOPO GLOBAL 
 const multiplicador = 2;
 
-const clojure = () => {
-  estudo = 20;
+const clojure = () => { // CRIAÇÃO DE ARROW FUNCTION 
+  estudo = 20; // VARIAVEL ESTUDO PASSA A VALER 20
   return () => {
-    estudo = 25;
+    estudo = 25; // VARIAVEL ESTUDO PASSA A VALER 25 (VALOR FINAL 25)
   }
 }
 
