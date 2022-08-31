@@ -4,7 +4,7 @@
   ex: const resposta = 5;
 */
 console.clear(); //Irá limpar o terminal para você
-const resposta = 4; //insira o valor da final variável 'estudo' aqui
+const resposta = 4; // valor atribuido pela condicional if 
 let estudo = 10;
 const multiplicador = 2;
 

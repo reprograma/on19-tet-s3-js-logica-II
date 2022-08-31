@@ -4,11 +4,11 @@
   ex: const resposta = 5;
 */
 console.clear(); //Irá limpar o terminal para você
-const resposta = 10; //insira o valor da final variável 'estudo' aqui
+const resposta = 10 
 let estudo = 10;
 const multiplicador = 2;
 
-if (estudo !== 10) {
+if (estudo !== 10) { // como é verdadeiro ele volta e n altera o valor da variavel
   let estudo = 20
 } else {
   const estudo = 0;

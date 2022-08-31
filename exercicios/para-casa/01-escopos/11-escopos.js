@@ -4,7 +4,7 @@
   ex: const resposta = 5;
 */
 console.clear(); //Irá limpar o terminal para você
-const resposta = 44; //insira o valor da final variável 'estudo' aqui
+const resposta = 44; 
 let estudo = 10;
 const multiplicador = 2;
 
@@ -12,12 +12,12 @@ const testar = (valor) => {
   if (valor === 5) {
     let estudo = 11;
   } else {
-    estudo = 44;
+    estudo = 44; // atribui como resposta
   }
 }
 
 testar(7);
-testar(5);
+testar(5); 
 
 if (estudo === resposta) {
   console.log("\nVocê acertou!\n");

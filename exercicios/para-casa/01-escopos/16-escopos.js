@@ -22,7 +22,7 @@ if (estudo === 10) {
             estudo = 11;
             if (estudo === 11) {
               estudo = 11;
-              if (estudo !== 11) {
+              if (estudo !== 11) { // para aqui porque ele volta se for verdadeiro
                 estudo = 11;
                 if (estudo === 11) {
                   estudo = 11;

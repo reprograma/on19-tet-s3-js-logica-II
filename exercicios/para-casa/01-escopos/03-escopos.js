@@ -4,7 +4,7 @@
   ex: const resposta = 5;
 */
 console.clear(); //Irá limpar o terminal para você
-const resposta = 6; //insira o valor da final variável 'estudo' aqui
+const resposta = 6; // a resposta vai ser a última atribuição da var estudo fora dos conxetes
 let estudo = 10;
 const multiplicador = 2;
 
@@ -20,7 +20,7 @@ const multiplicador = 2;
   estudo += 2;
 
   estudo /= 2;
-}
+} // vai ser ignorado porque essa nova atruição vai ficar apenas dentro dos conxetes que não altera a variavel original
 
 estudo = 6;
 

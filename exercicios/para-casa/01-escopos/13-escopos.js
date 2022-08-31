@@ -21,7 +21,7 @@ const multiplicador = 2;
     }
     const estudo = 6;
   }
-}
+} // a varivel não foi definida
 
 if (estudo === resposta) {
   console.log("\nVocê acertou!\n");
