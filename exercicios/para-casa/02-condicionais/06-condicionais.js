@@ -11,7 +11,7 @@ const readline = require('readline').createInterface({
 
 readline.question('\nDiga o número e te direi se é impar ou par!\n', numero => {
 
-  console.log(numero);
+  numeroPar(numero);
 
   readline.close();
 });
@@ -20,3 +20,11 @@ readline.on('close', () => {
   console.log('\nObrigada por jogar!');
   process.exit(0);
 });
+
+const numeroPar = (numero) => { // FUNÇÃO COM A CONDICIONAL SOLICITADA 
+  if (+numero % 2 === 0) { // CONDIÇÃO: SE O RESTO DA DIVISÃO DO NÚMERO INSERIDO PELO USUARIO POR 2 FOR 0, ENTÃO O NÚMERO É PAR
+    console.log("O número é par");
+  } else {
+    console.log("O número é impar");
+  }
+}
