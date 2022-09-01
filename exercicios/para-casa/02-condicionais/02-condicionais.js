@@ -11,7 +11,7 @@ let adulto = false;
 let valorEntrada = 10;
 let valorMeiaEntrada;
 
-if (adulto) { // mexa apenas aqui
+if (!adulto) { //o valor true para ceder meia entrada é a negação da variável adulto, condição que permitirá entrar no if
   valorMeiaEntrada = valorEntrada / 2;
 }
 

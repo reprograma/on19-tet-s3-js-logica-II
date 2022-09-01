@@ -14,6 +14,7 @@ readline.question('\nVamos calcular a média de 3 números, digite o primeiro:\n
     readline.question('\nTerceiro número\n', n3 => {
 
       console.log(n1, n2, n3);
+      console.log("A média dos três números é: " + ((+n1) + (+n2) + (+n3)) / 3);
 
       readline.close();
     });
