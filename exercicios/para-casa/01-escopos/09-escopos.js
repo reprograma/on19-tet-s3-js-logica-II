@@ -4,18 +4,20 @@
   ex: const resposta = 5;
 */
 console.clear(); //Irá limpar o terminal para você
-const resposta = 0; //insira o valor da final variável 'estudo' aqui
+const resposta = 35; //insira o valor da final variável 'estudo' aqui
 let estudo = 10;
 const multiplicador = 2;
 
-if (estudo === 10) {
-  estudo = 20;
-  if (estudo === 20) {
-    estudo = 35;
+if (estudo === 10) { //verdade
+  estudo = 20; //20
+  if (estudo === 20) { //verdade
+    estudo = 35; // 35 
   } else {
     estudo = 14;
   }
 }
+
+//valor final de estudo é 35
 
 if (estudo === resposta) {
   console.log("\nVocê acertou!\n");

@@ -11,7 +11,7 @@ let valorMeiaEntrada;
 //Pessoa 1: é adulto, mas estudante, dê meia entrada
 let adulto = true;
 let estudante = true;
-const condicional = () => estudante || adulto; // <=== mexa apenas aqui
+const condicional = () => estudante || !adulto; // <=== mexa apenas aqui
 if (condicional()) {
   valorMeiaEntrada = valorEntrada / 2;
 } else {
@@ -38,6 +38,11 @@ if (valorMeiaEntrada === 10) {
 } else {
   console.log("%cTente de novo!", "color: #000");
 }
+
+
+// para a lógica, True OU False é True
+// Como queremos o retorno da função condicional seja True, para que ele entre no if,
+// devemos negar o valor de adulto
 
 /*
   Você consegue justificar sua resposta?

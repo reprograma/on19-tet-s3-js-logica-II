@@ -4,6 +4,9 @@
   ex: "Legal, você tem direito a meia entrada" ou "Que pena, você não tem esse direito"
 */
 
+let valorIdade = 0;
+let tipoPessoa = "";
+
 const readline = require('readline').createInterface({
   input: process.stdin,
   output: process.stdout
@@ -12,6 +15,8 @@ const readline = require('readline').createInterface({
 readline.question('\nQuando anos você tem?\n', idade => {
   readline.question('\nVocê é estudante? (Sim, Não)\n', estudante => {
 
+    valorIdade = parseInt(idade);
+    tipoPessoa = estudante;
     console.log(idade, estudante);
 
     readline.close();
@@ -19,6 +24,13 @@ readline.question('\nQuando anos você tem?\n', idade => {
 });
 
 readline.on('close', () => {
+
+  if(valorIdade < 18 || tipoPessoa == "Sim" ){ //verifica se né menor OU se é estudante
+    console.log("Legal, você tem direito a meia entrada");
+  }else{ //se não
+    console.log("Que pena, você não tem esse direito");
+  }
+
   console.log('\nBom filme!');
   process.exit(0);
 });
