@@ -1,4 +1,6 @@
 /*
+  Oi, não consegui executar os exercicios devido a algns problemas pessoais essa semana, não foi relacionado a sua aula. 
+  Muito obrigada por essa semana, um xero.
   Não altere nada no código, apenas adicione um valor a variável 'resposta'!
   Execute o código e veja se acertou no terminal
   ex: const resposta = 5;
