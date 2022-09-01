@@ -13,7 +13,7 @@ const readline = require('readline').createInterface({
 readline.question('\nVamos ver se vc passou! Qual a primeira nota?\n', nota1 => {
   readline.question('\nQual a segunda nota?\n', nota2 => {
 
-    console.log(nota1, nota2);
+    verificarAprovado(nota1, nota2);
 
     readline.close();
   });
@@ -23,3 +23,15 @@ readline.on('close', () => {
   console.log('\nEstude muito sempre!');
   process.exit(0);
 });
+
+
+const verificarAprovado = (nota1, nota2) => { // FUNÇÃO COM PARÂMETRO AS DUAS NOTAS 
+  let media = (+nota1 + +nota2) / 2 // CALCULO MÉDIA DAS NOTAS 
+  if (media >= 6) { // CONDIÇÃO:  SE MEDIA MAIOR OU IGUAL A 6 ( APROVADO)
+    console.log("\nAprovado");
+  } else if(media >= 5){ // CONDIÇÃO:  SE MEDIA MAIOR OU IGUAL A 5 ( RECUPERAÇÃO)
+    console.log("\nRecuperação");
+  }else{// CONDIÇÃO: MENOR QUE 5 (REPROVADO)
+    console.log("\nReprovado");
+  }
+}

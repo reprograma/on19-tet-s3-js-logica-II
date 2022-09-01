@@ -4,18 +4,18 @@
   ex: const resposta = 5;
 */
 console.clear(); //Irá limpar o terminal para você
-const resposta = 0; //insira o valor da final variável 'estudo' aqui
-var estudo = 10;
+const resposta = 24; //insira o valor da final variável 'estudo' aqui
+var estudo = 10;// DEFINIÇÃO DE VARIAVEL EM ESCOPO GLOBAL 
 const multiplicador = 2;
 
 {
-  estudo = 2;
+  estudo = 2;// ESTUDO PASSA A VALER 2
   {
-    estudo = 6;
+    estudo = 6; // ESTUDO PASSA A VALER 6
     {
-      estudo = 7;
+      estudo = 7; // ESTUDO PASSA A VALER 7
       {
-        var estudo = 24;
+        var estudo = 24; // VARIAVEIS VAR PODEM SER ATUALIZADAS E DECLARADAS NOVAMENTE ENTÃO AQUI PASSOU A SER 24 ( RESULTADO FINAL 24)
       }
     }
   }

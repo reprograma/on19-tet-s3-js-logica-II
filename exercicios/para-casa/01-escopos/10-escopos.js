@@ -4,12 +4,12 @@
   ex: const resposta = 5;
 */
 console.clear(); //Irá limpar o terminal para você
-const resposta = 0; //insira o valor da final variável 'estudo' aqui
-let estudo = 10;
+const resposta = 10; //insira o valor da final variável 'estudo' aqui
+let estudo = 10; // DEFINIÇÃO DE VARIAVEL EM ESCOPO GLOBAL, VALOR NÃO FOI ALTERADO AO LONGO DO ESCOPO
 const multiplicador = 2;
 
-if (estudo !== 10) {
-  let estudo = 20
+if (estudo !== 10) { // VARIAVEL ESTUDO NÃO É FIFERENTE DE 10
+  let estudo = 20 // DEFINIÇÃO DE NOVA VARIAVEL EM ESCOPO LOCAL
 } else {
   const estudo = 0;
 }

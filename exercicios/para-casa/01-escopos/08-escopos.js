@@ -4,15 +4,15 @@
   ex: const resposta = 5;
 */
 console.clear(); //Irá limpar o terminal para você
-const resposta = 0; //insira o valor da final variável 'estudo' aqui
-let estudo = 10;
-const multiplicador = 2;
+const resposta = 4; //insira o valor da final variável 'estudo' aqui
+let estudo = 10; // DEFINIÇÃO DE VARIAVEL EM ESCOPO GLOBAL 
+const multiplicador = 2; // DEFINIÇÃO DE VARIAVEL CONST COM VALOR FIXO 
 
-if (multiplicador === 2) {
+if (multiplicador === 2) { // COMO O VARIAVEL MULTIPLICADOR É IGUAL A 2 A VARIAVL ESTUDO PASSA A SER 4
   estudo = 4;
 }
 
-if (multiplicador === 1) {
+if (multiplicador === 1) { // COMPARAÇÃO É FALSA ENTÃO VARIAVEL NÃO ALTERADA 
   estudo = 2;
 }
 

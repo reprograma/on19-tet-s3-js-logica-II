@@ -4,7 +4,7 @@ console.clear();
 // chute1 sendo o número 7
 // chute2 sendo o número 9
 const advinhaChute = (chute1, chute2) => {
-  if (+chute1 === 7 && chute2 === 9) {
+  if (+chute1 === 7 && +chute2 === 9) {
     console.log("Eba! Você acertou");
   } else {
     console.log("Tente de novo");

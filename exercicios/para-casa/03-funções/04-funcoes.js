@@ -9,7 +9,9 @@ const myArgs1 = myArgs[0];
 const myArgs2 = myArgs[1];
 
 const calcularMedia = (numero1, numero2) => { // É obrigatório usar essa função com os parâmetros
+  let media = (+numero1 + +numero2) / 2
   console.log(numero1, numero2);
+  console.log("A média é " + media);
 }
 
 calcularMedia(myArgs1, myArgs2);
