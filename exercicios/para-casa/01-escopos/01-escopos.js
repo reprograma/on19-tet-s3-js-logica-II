@@ -8,6 +8,7 @@ const resposta = 0; //insira o valor da final variável 'estudo' aqui
 let estudo = 10;
 const multiplicador = 2;
 
+
 estudo = 1;
 
 estudo = multiplicador * estudo;
