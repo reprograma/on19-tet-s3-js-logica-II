@@ -11,7 +11,7 @@ let adulto = false;
 let valorEntrada = 10;
 let valorMeiaEntrada;
 
-if (adulto) { // mexa apenas aqui
+if (adulto == false) { // mexa apenas aqui
   valorMeiaEntrada = valorEntrada / 2;
 }
 
@@ -27,4 +27,4 @@ if (valorMeiaEntrada === 5) {
   ex:
   if (estudo !== resposta) { //as variáveis devem ser diferentes para entrar no if
 */
-
+/* if (adulto = false) // informa que a pessoal não é adulta e por isso deverá pagar meia*/
