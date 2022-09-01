@@ -4,7 +4,7 @@
 
 # Semana 3 - Lógica de Programação 2
 
-Turma Online 19 - Todas em Tech  | Back-end | Semana 2 | 2022 | Agnes Ignácio
+Turma Online 19 - Todas em Tech | Back-end | Semana 3 | 2022 | Professora Giu
 
 ### Exercícios Laura
 <h1 align="center">
