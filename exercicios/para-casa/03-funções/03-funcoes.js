@@ -11,7 +11,11 @@ const myArgs1 = myArgs[0];
 const myArgs2 = myArgs[1];
 
 const converterRealParaDolar = (reais, cotação) => { // É obrigatório usar essa função com os parâmetros
-  console.log(reais, cotação);
+  reais = 5000
+  cotação = 5.23
+  const conversao = reais / 5.23
+  const resultado = conversao
+  console.log(conversao );
 }
 
 converterRealParaDolar(myArgs1, myArgs2);
