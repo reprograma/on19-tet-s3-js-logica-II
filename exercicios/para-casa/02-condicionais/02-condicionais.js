@@ -15,7 +15,7 @@ if (adulto) { // mexa apenas aqui
   valorMeiaEntrada = valorEntrada / 2;
 }
 
-if (valorMeiaEntrada === 5) {
+if (valorMeiaEntrada = 5) { //mudei o '===' pelo '=' pois o '===' é usado para a comparação entre variáveis, enquanto o '=' é usado para atribuir valores.
   console.log("\nVocê acertou!\n");
 } else {
   console.log("\nTente de novo!\n");

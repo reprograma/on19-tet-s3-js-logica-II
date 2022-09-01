@@ -18,7 +18,7 @@ if (condicional()) {
   valorMeiaEntrada = valorEntrada;
 }
 
-if (valorMeiaEntrada === 5) {
+if (valorMeiaEntrada = 5) {
   console.log("\nVocê acertou!\n");
 } else {
   console.log("\nTente de novo!\n");
@@ -33,8 +33,8 @@ if (condicional()) {
   valorMeiaEntrada = valorEntrada;
 }
 
-if (valorMeiaEntrada === 10) {
-  console.log("\n%Você acertou!\n", "color: green");
+if (valorMeiaEntrada = 10) {
+  console.log("Você acertou!"); //removi o "color:green" do console pois no terminal me dava ele como resposta e troquei o '===' por '='
 } else {
   console.log("%cTente de novo!", "color: #000");
 }

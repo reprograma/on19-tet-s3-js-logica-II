@@ -11,12 +11,15 @@ const readline = require('readline').createInterface({
 
 readline.question('\nChuta um número de um a dez!\n', chute => {
 
-  console.log(chute);
+  console.log(chute);{
+  if (chute == 7) console.log('Parabéns, você é demais!')
+  else console.log('Que pena, não foi dessa vez.')}
 
   readline.close();
 });
 
+
 readline.on('close', () => {
-  console.log('\nObrigada por jogar!');
+  console.log('Obrigada por jogar!');
   process.exit(0);
 });

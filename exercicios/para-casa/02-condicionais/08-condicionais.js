@@ -11,14 +11,13 @@ const readline = require('readline').createInterface({
 
 readline.question('\nVamos calcular a média de 3 números, digite o primeiro:\n', n1 => {
   readline.question('\nSegundo número:\n', n2 => {
-    readline.question('\nTerceiro número\n', n3 => {
 
-      console.log(n1, n2, n3);
+      console.log(n1 + n2 + n3);
 
       readline.close();
     });
   });
-});
+;
 
 readline.on('close', () => {
   console.log('\nObrigada por calcular!');
