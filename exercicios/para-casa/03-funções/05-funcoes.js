@@ -7,10 +7,23 @@
 
 //Não se preocupe com essas três linhas, vamos aprender semana que vem.
 const myArgs = process.argv.slice(2);
-const myArgs1 = myArgs[0];
+const myArgs1 = +myArgs[0];
 
-const funcaoRecursiva = (numero1) => { // É obrigatório usar essa função com os parâmetros
-  console.log(numero1);
-}
+const funcaoRecursiva = (numero1, count, data = []) => { // É obrigatório usar essa função com os parâmetros
+  if (count < numero1) {
+    +count++;
+    funcaoRecursiva (numero1, count, data);
+    console.log(+data);
+    } else {
+      return; 
+    }
+} 
 
-funcaoRecursiva(myArgs1);
+const saveData = (numero1, count, data) => {
+  const results = [];
+  this.funcaoRecursiva(numero1, count, data);
+  return results; 
+} 
+//Unfortunately didn't have enough time/knowledge to make this work, by myself. I still think it was considerably close as you can run the 
+//function and see it track how many numbers there are before the one from input
+funcaoRecursiva(myArgs1, 0);
