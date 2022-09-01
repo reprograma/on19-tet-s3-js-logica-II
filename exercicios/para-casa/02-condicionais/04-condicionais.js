@@ -9,14 +9,16 @@ const readline = require('readline').createInterface({
   output: process.stdout
 });
 
-readline.question('\nChuta um número de um a dez!\n', chute => {
-
-  console.log(chute);
-
-  readline.close();
+readline.question('\nChuta um número de um a dez!\n', (chute) => {
+numeroChute(chute);
+readline.close();
 });
 
-readline.on('close', () => {
-  console.log('\nObrigada por jogar!');
-  process.exit(0);
-});
+let numeroChute = (chute) => {
+  if (+chute !== 7) {
+    console.log('\nVish.... Tenta de novo');}
+    else {
+      console.log("Você é incríveeeel! Parabéns!")
+    }}
+
+    //Não consegui fazer com o readline.on!

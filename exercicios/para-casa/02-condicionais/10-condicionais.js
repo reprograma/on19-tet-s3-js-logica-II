@@ -10,10 +10,16 @@ const readline = require('readline').createInterface({
   output: process.stdout
 });
 
-readline.question('\nQuanto é o valor a ser calculado?\n', valor => {
+readline.question('\nQuanto é o valor a ser calculado?\n', (valor) => {
 
-  console.log(valor);
-
+  if (+valor > 500) {
+    console.log("20% de descnto, Total: R$", +valor*0.80)
+  } else if (+valor > 100) {
+    console.log("10% de desconto, Total: R$", +valor*0.90)
+  } else if (+valor <= 100) {
+    console.log("Para ter 10% de desconto add o valor de R$", 101 - +valor, " na sua compra")
+  }
+ 
   readline.close();
 });
 

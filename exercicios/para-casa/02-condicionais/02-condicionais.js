@@ -11,7 +11,7 @@ let adulto = false;
 let valorEntrada = 10;
 let valorMeiaEntrada;
 
-if (adulto) { // mexa apenas aqui
+if (adulto == false) { // mexa apenas aqui
   valorMeiaEntrada = valorEntrada / 2;
 }
 
@@ -23,8 +23,6 @@ if (valorMeiaEntrada === 5) {
 
 /*
   Você consegue justificar sua resposta?
-  Comente o código como foi a manipulação dos valores
-  ex:
-  if (estudo !== resposta) { //as variáveis devem ser diferentes para entrar no if
+Se adulto = false, então calcular meia entrada
 */
 

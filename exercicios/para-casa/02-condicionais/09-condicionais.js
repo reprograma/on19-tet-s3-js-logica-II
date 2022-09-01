@@ -10,11 +10,18 @@ const readline = require('readline').createInterface({
   output: process.stdout
 });
 
-readline.question('\nVamos ver se vc passou! Qual a primeira nota?\n', nota1 => {
-  readline.question('\nQual a segunda nota?\n', nota2 => {
+readline.question('\nVamos ver se vc passou! Qual a primeira nota?\n', (nota1) => {
+  readline.question('\nQual a segunda nota?\n', (nota2) => {
+    let mediaNotas = (+nota1 + +nota2)/2
 
-    console.log(nota1, nota2);
-
+    if (mediaNotas >= 6) {
+      console.log("Aprovada!")
+    } else if (mediaNotas >=5) {
+      console.log("Em recuperação Mon Amour")
+    } else {
+      console.log("Gata reprovada :/")
+    }
+    
     readline.close();
   });
 });
