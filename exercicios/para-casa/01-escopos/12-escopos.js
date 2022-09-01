@@ -12,13 +12,13 @@ const testar = (valor) => {
   if (valor === 5) {
     let estudo = 11;
   } else {
-    estudo = 44;
+    estudo = 44; // não foi dado os valores a serem testados
   }
 }
 
 {
   let estudo = 5;
-  testar(estudo);
+  testar(estudo); // ignorado pois está nas aspas
 }
 
 if (estudo === resposta) {

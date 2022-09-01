@@ -4,7 +4,11 @@
   ex: const resposta = 5;
 */
 console.clear(); //Irá limpar o terminal para você
+<<<<<<< HEAD
+const resposta = 6; // a última atribuição da var estudo
+=======
 const resposta = 0; //insira o valor da final variável 'estudo' aqui
+>>>>>>> efed9f207fe9ad54703841a1fd514d13773bfbad
 let estudo = 10;
 const multiplicador = 2;
 
@@ -20,7 +24,7 @@ estudo += 2;
 
 estudo /= 2;
 
-estudo = 6;
+estudo = 6; // essa foi a ultima atribuição da var estudo então 6===6 como resposta
 
 if (estudo === resposta) {
   console.log("\nVocê acertou!\n");

@@ -13,6 +13,9 @@ const myArgs2 = myArgs[1];
 
 const calcularDiasDeVida = (idade, nome) => { // É obrigatório usar essa função com os parâmetros
   console.log(idade, nome);
+  const idade = Number(idade)
+  const dias  = idade*365
+  console.log(nome, 'viveu', dias, 'até hoje')
 }
 
 calcularDiasDeVida(myArgs1, myArgs2);

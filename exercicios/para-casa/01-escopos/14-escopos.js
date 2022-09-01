@@ -4,11 +4,15 @@
   ex: const resposta = 5;
 */
 console.clear(); //Irá limpar o terminal para você
+<<<<<<< HEAD
+const resposta = NaN; 
+=======
 const resposta = 0; //insira o valor da final variável 'estudo' aqui
 let estudo = 10;
+>>>>>>> efed9f207fe9ad54703841a1fd514d13773bfbad
 const multiplicador = 2;
 
-estudo = "Olá" / 500;
+estudo = "Olá" / 500; // operações matematica com elementos não numericos resulta na resposta NaN
 
 if (Number.isNaN(estudo)) {
   console.log("\nVocê acertou!\n");

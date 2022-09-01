@@ -4,11 +4,15 @@
   ex: const resposta = 5;
 */
 console.clear(); //Irá limpar o terminal para você
+<<<<<<< HEAD
+const resposta = 1; 
+=======
 const resposta = 0; //insira o valor da final variável 'estudo' aqui
+>>>>>>> efed9f207fe9ad54703841a1fd514d13773bfbad
 let estudo = 10;
 const multiplicador = 2;
 
-estudo = 1;
+estudo = 1; // resposta pois foi a última atribuição da variavel e o que ta aspas vai ser mudado apenas nelas
 
 {
   let estudo = multiplicador;

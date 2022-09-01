@@ -14,7 +14,14 @@ readline.question('\nVamos ver se vc passou! Qual a primeira nota?\n', nota1 => 
   readline.question('\nQual a segunda nota?\n', nota2 => {
 
     console.log(nota1, nota2);
-
+const notas1 = (nota1)
+const notas2 = (nota2)
+const media = (notas1 + notas2) /2
+if (media >= 6){
+  console.log("Aprovado")
+} else if (+media <5){
+  console.log("Reprovado")
+}
     readline.close();
   });
 });

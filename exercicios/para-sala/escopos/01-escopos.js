@@ -1,4 +1,15 @@
 console.clear();
+<<<<<<< HEAD
+let nome = Allana;
+    nome = lari;
+{
+    nome = lari;
+}
+{
+
+}
+console.log(nome)
+=======
 
 let nome = "Giu";
 
@@ -21,3 +32,4 @@ if (true) {
 }
 
 console.log("final", saudacao);
+>>>>>>> efed9f207fe9ad54703841a1fd514d13773bfbad

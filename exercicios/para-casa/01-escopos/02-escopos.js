@@ -4,7 +4,11 @@
   ex: const resposta = 5;
 */
 console.clear(); //Irá limpar o terminal para você
+<<<<<<< HEAD
+const resposta = 1; // resulto das operações vai ser 1
+=======
 const resposta = 0; //insira o valor da final variável 'estudo' aqui
+>>>>>>> efed9f207fe9ad54703841a1fd514d13773bfbad
 let estudo = 10;
 const multiplicador = 2;
 
@@ -21,7 +25,7 @@ estudo += 2;
 estudo /= 2;
 
 {
-  let estudo = 6;
+  let estudo = 6; // vai ser ignorado porque declarou e está so vai ficar dentro das aspas
 }
 
 if (estudo === resposta) {
