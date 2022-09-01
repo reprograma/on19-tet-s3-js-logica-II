@@ -12,6 +12,9 @@ const myArgs2 = myArgs[1];
 
 const converterRealParaDolar = (reais, cotação) => { // É obrigatório usar essa função com os parâmetros
   console.log(reais, cotação);
+
+  const covertidoEmDolar = reais / cotação
+  console.log(covertidoEmDolar.toFixed(2))
 }
 
 converterRealParaDolar(myArgs1, myArgs2);
