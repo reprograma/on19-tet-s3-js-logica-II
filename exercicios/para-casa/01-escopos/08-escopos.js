@@ -13,7 +13,7 @@ if (multiplicador === 2) {
 }
 
 if (multiplicador === 1) {
-  estudo = 2;
+  estudo = 2;   // não é 
 }
 
 if (estudo === resposta) {

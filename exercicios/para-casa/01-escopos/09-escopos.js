@@ -10,13 +10,14 @@ const multiplicador = 2;
 
 if (estudo === 10) {
   estudo = 20;
+  
   if (estudo === 20) {
     estudo = 35;
   } else {
     estudo = 14;
   }
 }
-
+//console.log(estudo) 35
 if (estudo === resposta) {
   console.log("\nVocê acertou!\n");
 } else {

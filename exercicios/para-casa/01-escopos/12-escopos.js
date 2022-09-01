@@ -13,14 +13,17 @@ const testar = (valor) => {
     let estudo = 11;
   } else {
     estudo = 44;
+    
   }
+  //console.log(estudo) 10
 }
 
 {
   let estudo = 5;
   testar(estudo);
+  //console.log(estudo) 5
 }
-
+//console.log(estudo) 10
 if (estudo === resposta) {
   console.log("\nVocê acertou!\n");
 } else {

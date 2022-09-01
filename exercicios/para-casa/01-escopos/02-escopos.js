@@ -4,24 +4,31 @@
   ex: const resposta = 5;
 */
 console.clear(); //Irá limpar o terminal para você
-const resposta = 1; //insira o valor da final variável 'estudo' aqui
+
+//ESCOPO GLOBAL
+
+const resposta = 4; //insira o valor da final variável 'estudo' aqui
 let estudo = 10;
 const multiplicador = 2;
 
-estudo = 1;
+estudo = 4; 
 
-estudo = multiplicador * estudo;
+estudo = multiplicador * estudo; //2 * 4 = 8
 
-estudo = estudo * estudo / estudo;
+estudo = estudo * estudo / estudo; // (8 * 8)/ 8 = 8
 
-estudo = estudo - multiplicador;
+estudo = estudo - multiplicador;  //8 - 2 = 6
 
-estudo += 2;
+estudo += 2; // 6 + 2 = 8
 
-estudo /= 2;
+estudo /= 2;  // 8/ 2 = 4
+//console.log(estudo) ;
 
+// ESCOPO LOCAL
 {
-  let estudo = 6;
+  let estudo = 6; 
+  
+
 }
 
 if (estudo === resposta) {
@@ -31,8 +38,7 @@ if (estudo === resposta) {
 }
 
 /*
-  Você consegue justificar sua resposta?
-  Comente o código como foi a manipulação dos valores
-  ex:
-  let estudo = 1 //aqui foi feita a atribuição no escopo global
+ CONCLUSÃO :
+  ASSIM COMO NO EXERCÍCIO ANTERIOR A VARIAVÉL "estudo", RECEBEU VALORES 
+  DIFERENTES DENTRO DE ESCOPO GLOBAL E LOCAL,  CONTUDO APENAS O QUE FOI DECLARADO NO ESCOPO GLOBAL SERIA A RESPOSTA CERTA
 */

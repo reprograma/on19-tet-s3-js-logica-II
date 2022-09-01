@@ -4,19 +4,23 @@
   ex: const resposta = 5;
 */
 console.clear(); //Irá limpar o terminal para você
+
+//ESCOPO GLOBAL
 const resposta = 1; //insira o valor da final variável 'estudo' aqui
 let estudo = 10;
 const multiplicador = 2;
 
 estudo = 1;
 
+//ESCOPO LOCAL 
 {
-  let estudo = multiplicador;
+  let estudo = multiplicador; //2
 
-  estudo = estudo - multiplicador;
+  estudo = estudo - multiplicador; // 2 - 2 = 0
+  //console.log(estudo) // SE EU DER UM CONSOLE  DENTRO DESSE ESCOPO A RESPOSTA  PODERIA SER  "0"
 }
 
-
+// CONDIÇÕES 
 if (estudo === resposta) {
   console.log("\nVocê acertou!\n");
 } else {

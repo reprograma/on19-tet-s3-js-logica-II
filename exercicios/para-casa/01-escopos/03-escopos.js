@@ -11,15 +11,15 @@ const multiplicador = 2;
 {
   estudo = 1;
 
-  estudo = multiplicador * estudo;
+  estudo = multiplicador * estudo; //1 *2 = 2
 
-  estudo = estudo * estudo / estudo;
+  estudo = estudo * estudo / estudo; //(2 * 2)/2 = 2
 
-  estudo = estudo - multiplicador;
+  estudo = estudo - multiplicador; //2 - 2 = 0
 
-  estudo += 2;
+  estudo += 2; // 0+ 2 = 2
 
-  estudo /= 2;
+  estudo /= 2; // 2/2= 1
 }
 
 estudo = 6;
@@ -30,9 +30,3 @@ if (estudo === resposta) {
   console.log("\nTente de novo!\n");
 }
 
-/*
-  Você consegue justificar sua resposta?
-  Comente o código como foi a manipulação dos valores
-  ex:
-  let estudo = 1 //aqui foi feita a atribuição no escopo global
-*/

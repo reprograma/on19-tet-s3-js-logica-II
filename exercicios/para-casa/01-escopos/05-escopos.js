@@ -9,18 +9,18 @@ let estudo = 10;
 const multiplicador = 2;
 
 {
-  let estudo = 3;
+  let estudo = 3; //?!
 }
 
 {
   let estudo = 6;
-  estudo = 0;
+  estudo = 0; // Não
 }
 
 {
-  estudo = 3;
+  estudo = 3; // sim !
   {
-    let estudo = "Olá!";
+    let estudo = "Olá!"; // NÃO 
   }
 }
 

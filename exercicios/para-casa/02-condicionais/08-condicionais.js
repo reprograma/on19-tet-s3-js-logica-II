@@ -3,7 +3,7 @@
   Imprima a média
   ex: 2, 3, 4 ==> 3
 */
-
+console.clear();
 const readline = require('readline').createInterface({
   input: process.stdin,
   output: process.stdout
@@ -12,8 +12,9 @@ const readline = require('readline').createInterface({
 readline.question('\nVamos calcular a média de 3 números, digite o primeiro:\n', n1 => {
   readline.question('\nSegundo número:\n', n2 => {
     readline.question('\nTerceiro número\n', n3 => {
-
-      console.log(n1, n2, n3);
+let media =((n1)+ (n2) + (n3))/ 3
+console.log(media.toFixed(2))
+      //console.log(n1, n2, n3);
 
       readline.close();
     });

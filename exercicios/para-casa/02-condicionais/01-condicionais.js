@@ -8,7 +8,7 @@ console.clear(); //Irá limpar o terminal para você
 const resposta = 20;
 const estudo = 10;
 
-if (estudo === resposta) { // mexa apenas aqui
+if (estudo * 2 === resposta) {     //PARA OBTER O RESULTADO QUE É 20 PRECISAMOS MULTIPLICAR O VALOR ESTUDO = 10 *2 = 20 // mexa apenas aqui
   console.log("\nVocê acertou!\n");
 } else {
   console.log("\nTente de novo!\n");
