@@ -11,7 +11,7 @@ let valorMeiaEntrada;
 //Pessoa 1: é adulto, mas estudante, dê meia entrada
 let adulto = true;
 let estudante = true;
-const condicional = () => estudante || adulto; // <=== mexa apenas aqui
+const condicional = () => estudante && adulto; // <=== mexa apenas aqui
 if (condicional()) {
   valorMeiaEntrada = valorEntrada / 2;
 } else {
@@ -41,8 +41,7 @@ if (valorMeiaEntrada === 10) {
 
 /*
   Você consegue justificar sua resposta?
-  Comente o código como foi a manipulação dos valores
-  ex:
-  if (estudo !== resposta) { //as variáveis devem ser diferentes para entrar no if
+  Tabela verdade troquei de ou || para && e, assim somente adultos estudantes
+  vão ter meia entrada
 */
 

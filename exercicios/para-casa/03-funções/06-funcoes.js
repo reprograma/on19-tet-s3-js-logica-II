@@ -11,7 +11,7 @@ const myArgs1 = myArgs[0];
 
 const gerarFuncao = () => { // É obrigatório usar essa função com os parâmetros
   const PI = 3.14;
-  console.log(PI);
+  console.log(PI*myArgs1);
 }
 
 const calcularCircunferencia = gerarFuncao();
