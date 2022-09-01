@@ -10,6 +10,8 @@ const myArgs2 = myArgs[1];
 
 const calcularMedia = (numero1, numero2) => { // É obrigatório usar essa função com os parâmetros
   console.log(numero1, numero2);
+  const media = (+numero1 + +numero2) /2
+  console.log(media)
 }
 
 calcularMedia(myArgs1, myArgs2);
