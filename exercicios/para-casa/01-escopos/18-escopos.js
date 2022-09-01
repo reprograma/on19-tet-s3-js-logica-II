@@ -4,19 +4,19 @@
   ex: const resposta = 5;
 */
 console.clear(); //Irá limpar o terminal para você
-const resposta = 0; //insira o valor da final variável 'estudo' aqui
+const resposta = 20; //insira o valor da final variável 'estudo' aqui
 let estudo = 10;
 const multiplicador = 2;
 
 const clojure = () => {
-  estudo = 20;
+  estudo = 20; //muda o valor para 20
   return () => {
-    let estudo = 25;
+    let estudo = 25; //não muda o valor da variável estudo pra 10
   }
 }
 
 const funcaoDaFuncao = clojure();
-funcaoDaFuncao();
+funcaoDaFuncao(); //realiza a chamada de clojure
 
 if (estudo === resposta) {
   console.log("\nVocê acertou!\n");

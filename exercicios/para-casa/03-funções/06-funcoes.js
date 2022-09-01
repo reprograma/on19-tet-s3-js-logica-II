@@ -9,9 +9,10 @@
 const myArgs = process.argv.slice(2);
 const myArgs1 = myArgs[0];
 
-const gerarFuncao = () => { // É obrigatório usar essa função com os parâmetros
+const gerarFuncao = (C, d) => { // É obrigatório usar essa função com os parâmetros
   const PI = 3.14;
-  console.log(PI);
+  C = PI * d
+  console.log("A circunferência é: " + C);
 }
 
 const calcularCircunferencia = gerarFuncao();

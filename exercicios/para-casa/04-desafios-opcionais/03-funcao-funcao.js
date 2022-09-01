@@ -2,8 +2,8 @@
   Crie uma função que retorna uma função que retorna uma função, que soma dois números!
 */
 
-const primeiraFuncao = () => {
-
+const primeiraFuncao = (n1, n2) => {
+  return n1 + n2;
 }
 
 const segundaFuncao = primeiraFuncao();

@@ -4,3 +4,6 @@
   argumentos de linha de comando, condicionais e funções em algo
   bem louco! E não esqueça de compartilhar com todo mundo.
 */
+
+
+//Não se preocupe com essas três linhas, vamos aprender semana que vem. 

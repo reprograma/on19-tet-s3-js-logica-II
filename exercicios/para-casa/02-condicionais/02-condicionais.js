@@ -11,7 +11,7 @@ let adulto = false;
 let valorEntrada = 10;
 let valorMeiaEntrada;
 
-if (adulto) { // mexa apenas aqui
+if (!adulto) { // mexa apenas aqui
   valorMeiaEntrada = valorEntrada / 2;
 }
 
@@ -20,6 +20,8 @@ if (valorMeiaEntrada === 5) {
 } else {
   console.log("\nTente de novo!\n");
 }
+
+//colocando um "!" eu vejo se o valor de adulto é true Negar a negação torna uma verdade
 
 /*
   Você consegue justificar sua resposta?

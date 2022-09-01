@@ -4,15 +4,15 @@
   ex: const resposta = 5;
 */
 console.clear(); //Irá limpar o terminal para você
-const resposta = 0; //insira o valor da final variável 'estudo' aqui
+const resposta = 4; //insira o valor da final variável 'estudo' aqui
 let estudo = 10;
 const multiplicador = 2;
 
-if (multiplicador === 2) {
+if (multiplicador === 2) {  //se multiplicador = 2 então estudo = 4 
   estudo = 4;
 }
 
-if (multiplicador === 1) {
+if (multiplicador === 1) { //é falso
   estudo = 2;
 }
 

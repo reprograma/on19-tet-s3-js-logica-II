@@ -8,9 +8,9 @@ const resposta = 0; //insira o valor da final variável 'estudo' aqui
 let estudo = 10;
 const multiplicador = 2;
 
-estudo = "Olá" / 500;
+estudo = "Olá" / 500; //como olá é  uma string ele não sabe como realizar o calculo tornando um NaN (Not a Number)
 
-if (Number.isNaN(estudo)) {
+if (Number.isNaN(estudo)) { //verifica se NÃO é um numero
   console.log("\nVocê acertou!\n");
 } else {
   console.log("\nTente de novo!\n");
