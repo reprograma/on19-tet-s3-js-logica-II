@@ -14,6 +14,21 @@ readline.question('\nQuanto é o valor a ser calculado?\n', valor => {
 
   console.log(valor);
 
+  let valorAPagar = Number (valor)
+  let descontoDez = 10
+  let descontoVinte = 20
+  
+  if (valorAPagar >= 500){
+    valorAPagar *= 0.8
+    console.log ('Desconto de 20%')
+  }
+  else if (valorAPagar >= 100){
+    valorAPagar *= 0.9
+    console.log ('Desconto de 10%')
+  }
+
+  console.log ('Valor final:', valorAPagar)
+
   readline.close();
 });
 

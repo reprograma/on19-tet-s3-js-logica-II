@@ -4,7 +4,10 @@
   ex: const resposta = 5;
 */
 console.clear(); //Irá limpar o terminal para você
-const resposta = 0; //insira o valor da final variável 'estudo' aqui
+const resposta = undefined; //insira o valor da final variável 'estudo' aqui 
+// valor da variavel resposta será undefined pois o valor da variável estudo não é atribuido em nenhum lugar do código 
+// logo é undefined por padrão
+
 let estudo;
 const multiplicador = 2;
 

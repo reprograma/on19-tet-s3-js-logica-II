@@ -5,7 +5,7 @@
 */
 console.clear(); //Irá limpar o terminal para você
 
-const resposta = 20;
+const resposta = 10; //foi repetido o valor da variavel estudo
 const estudo = 10;
 
 if (estudo === resposta) { // mexa apenas aqui
