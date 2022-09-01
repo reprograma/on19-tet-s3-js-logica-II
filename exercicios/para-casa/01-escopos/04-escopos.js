@@ -3,17 +3,24 @@
   Execute o código e veja se acertou no terminal
   ex: const resposta = 5;
 */
+
 console.clear(); //Irá limpar o terminal para você
-const resposta = 0; //insira o valor da final variável 'estudo' aqui
+const resposta = 1; //insira o valor da final variável 'estudo' aqui
 let estudo = 10;
+console.log(estudo)
 const multiplicador = 2;
 
-estudo = 1;
+estudo = 1; // reatribuiu o valor da variavel da linha 9, aqui é varivel global
+console.log(estudo)
 
 {
-  let estudo = multiplicador;
+  let estudo = multiplicador; // aqui o valor o estudo é o valor atribuido a variavel multilpilcador da linha 11, ou seja, 2.
+  console.log(estudo)
 
-  estudo = estudo - multiplicador;
+  estudo = estudo - multiplicador; // 2-2 = 0. 
+  console.log(estudo)
+
+  // aqui está entre {} não consigo acessar de fora
 }
 
 
@@ -22,6 +29,14 @@ if (estudo === resposta) {
 } else {
   console.log("\nTente de novo!\n");
 }
+
+
+
+
+
+
+
+
 
 /*
   Você consegue justificar sua resposta?
