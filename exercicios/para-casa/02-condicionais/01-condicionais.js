@@ -8,11 +8,14 @@ console.clear(); //Irá limpar o terminal para você
 const resposta = 20;
 const estudo = 10;
 
-if (estudo === resposta) { // mexa apenas aqui
+
+if (estudo !== resposta) { // mexa apenas aqui
   console.log("\nVocê acertou!\n");
 } else {
   console.log("\nTente de novo!\n");
 }
+
+// as variáveis devem ser diferentes para entrar no if, tirei o sinal de igual, e coloquei sinal de diferente!
 
 /*
   Você consegue justificar sua resposta?
