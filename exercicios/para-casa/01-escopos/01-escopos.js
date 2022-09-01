@@ -1,4 +1,12 @@
 /*
+                     Teacher, você é maravilhosa e sua aula incrível, mas realmente tive muita dificuldade
+                     com o assunto e ainda estou tentando assimilar. Estou mandando o exercício 
+                     mesmo não respondendo pra que você saiba que tentei pelo menos e vou continuar
+                     tentando. DESCULPAS! <3 
+
+
+
+
   Não altere nada no código, apenas adicione um valor a variável 'resposta'!
   Execute o código e veja se acertou no terminal
   ex: const resposta = 5;
