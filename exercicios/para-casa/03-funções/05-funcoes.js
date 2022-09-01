@@ -15,7 +15,7 @@ const funcaoRecursiva = (numero1) => { // É obrigatório usar essa função com
   if(numero1 > 0){
   funcaoRecursiva(numero1 - 1);
   }
-  console.log();
+  return soma;
 }
 
-funcaoRecursiva(myArgs1);
+console.log(funcaoRecursiva(myArgs1));
