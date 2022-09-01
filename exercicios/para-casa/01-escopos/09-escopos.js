@@ -28,4 +28,8 @@ if (estudo === resposta) {
   Comente o código como foi a manipulação dos valores
   ex:
   let estudo = 1 //aqui foi feita a atribuição no escopo global
+
+  O estudo valendo 10 foi feito uma condicional aonde seu valor 
+  foi alterado para 20 seguido de outra condição aonde 
+  seu valor foi alterado para 35.
 */

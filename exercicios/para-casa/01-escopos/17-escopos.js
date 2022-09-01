@@ -29,5 +29,8 @@ if (estudo === resposta) {
   Comente o código como foi a manipulação dos valores
   ex:
   let estudo = 1 //aqui foi feita a atribuição no escopo global
+
+  A resposta entrou como 25 pois foi chamado na linha 14
+  sendo o estudo a ser lido antes do console log.
 */
 

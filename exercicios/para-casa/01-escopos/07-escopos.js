@@ -32,4 +32,9 @@ if (estudo === resposta) {
   Comente o código como foi a manipulação dos valores
   ex:
   let estudo = 1 //aqui foi feita a atribuição no escopo global
+
+  como a variavel estudo é um var ela reatribuindo seu valor de dentro do escopo
+  para o escopo global.
+
+
 */

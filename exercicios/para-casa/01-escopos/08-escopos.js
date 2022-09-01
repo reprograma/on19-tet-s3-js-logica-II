@@ -27,5 +27,8 @@ if (estudo === resposta) {
   Comente o código como foi a manipulação dos valores
   ex:
   let estudo = 1 //aqui foi feita a atribuição no escopo global
+
+  A resposta foi definida como 4 de acordo com o valor do multiplicador,
+  por que entramos na primeira condicional aonde definia o estudo como 4.
 */
 

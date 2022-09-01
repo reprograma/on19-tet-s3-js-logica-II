@@ -17,6 +17,7 @@ estudo = 1;
 }
 
 
+
 if (estudo === resposta) {
   console.log("\nVocê acertou!\n");
 } else {
@@ -28,4 +29,8 @@ if (estudo === resposta) {
   Comente o código como foi a manipulação dos valores
   ex:
   let estudo = 1 //aqui foi feita a atribuição no escopo global
+
+  Como a variavel estudo de dentro do escopo foi inicializada, o estudo que esta 
+  sendo pedido na condicional que esta fora do escopo sera deficido como ultimo 
+  valor que esta no escopo global.
 */

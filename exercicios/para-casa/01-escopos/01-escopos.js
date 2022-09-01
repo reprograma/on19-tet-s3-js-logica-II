@@ -33,4 +33,8 @@ if (estudo === resposta) {
   Comente o código como foi a manipulação dos valores
   ex:
   let estudo = 1 //aqui foi feita a atribuição no escopo global
+
+  No começo do algoritimo a varialvel estudo era = 10, quando chega a linha 23
+  foi definido que o estudo era = 6.Onde entrou em uma condicional no qual estudo tinha
+  que ser igual a resposta.
 */

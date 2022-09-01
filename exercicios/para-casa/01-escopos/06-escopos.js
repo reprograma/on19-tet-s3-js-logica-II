@@ -16,6 +16,7 @@ const multiplicador = 2;
     {
       estudo = "Olá!";
     }
+   
   }
 }
 
@@ -30,4 +31,7 @@ if (estudo === resposta) {
   Comente o código como foi a manipulação dos valores
   ex:
   let estudo = 1 //aqui foi feita a atribuição no escopo global
+
+  A resposta é igual a 10 pois a comparação necessaria com o valor de estudo 
+  que fora do escopo 8 ele foi reatribuido seu valor para 10
 */

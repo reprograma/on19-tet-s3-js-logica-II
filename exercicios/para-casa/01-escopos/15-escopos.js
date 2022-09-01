@@ -31,5 +31,8 @@ if (estudo === resposta) {
   Comente o código como foi a manipulação dos valores
   ex:
   let estudo = 1 //aqui foi feita a atribuição no escopo global
+
+  A resposta entrou como "acabou" pois lendo as linhas do escopo
+  mesmo com a soma, no seu final foi dado como encerrado.
 */
 

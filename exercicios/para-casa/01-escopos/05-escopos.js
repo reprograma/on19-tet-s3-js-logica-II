@@ -35,4 +35,7 @@ if (estudo === resposta) {
   Comente o código como foi a manipulação dos valores
   ex:
   let estudo = 1 //aqui foi feita a atribuição no escopo global
+
+  A resposta é igual a 3 pois a comparação necessaria com o valor de estudo 
+  que dentro do escopo 21 ele foi reatribuido seu valor para 3.
 */

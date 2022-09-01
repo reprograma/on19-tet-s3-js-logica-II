@@ -30,5 +30,8 @@ if (estudo === resposta) {
   Comente o código como foi a manipulação dos valores
   ex:
   let estudo = 1 //aqui foi feita a atribuição no escopo global
+
+  A resposta foi definida de acordo com o ultimo estudo estudo 
+  chamado dentro so escopo global
 */
 

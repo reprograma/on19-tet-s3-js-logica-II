@@ -28,6 +28,7 @@ if (estudo === resposta) {
   console.log("\nVocê acertou!\n");
 } else {
   console.log("\nTente de novo!\n");
+  
 }
 
 /*
@@ -35,4 +36,7 @@ if (estudo === resposta) {
   Comente o código como foi a manipulação dos valores
   ex:
   let estudo = 1 //aqui foi feita a atribuição no escopo global
+
+  Na linha 25 do algoritimo a variavel estudo foi definida como 6, logo a resposta 
+  precisa ser igual ao estudo.
 */
