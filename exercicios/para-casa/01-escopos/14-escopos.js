@@ -8,7 +8,7 @@ const resposta = 0; //insira o valor da final variável 'estudo' aqui
 let estudo = 10;
 const multiplicador = 2;
 
-estudo = "Olá" / 500;
+estudo = "Olá" / 500; // precisa colocar um numero para o is.nam poder ler
 
 if (Number.isNaN(estudo)) {
   console.log("\nVocê acertou!\n");

@@ -22,7 +22,7 @@ if (estudo === 10) {
             estudo = 11;
             if (estudo === 11) {
               estudo = 11;
-              if (estudo !== 11) {
+              if (estudo !== 11) {   // Essa exclamação está no lugar errado, por conta disso o codigo está quebrando
                 estudo = 11;
                 if (estudo === 11) {
                   estudo = 11;
