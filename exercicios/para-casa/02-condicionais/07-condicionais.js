@@ -14,6 +14,13 @@ readline.question('\nQuando anos você tem?\n', idade => {
 
     console.log(idade, estudante);
 
+    if (idade <= 17 || estudante === 'Sim'){
+      console.log ('Legal, você tem direito a meia entrada')
+    }
+    else {
+      console.log ('Que pena, você não tem esse direito')
+    }
+
     readline.close();
   });
 });

@@ -4,14 +4,14 @@
   ex: const resposta = 5;
 */
 console.clear(); //Irá limpar o terminal para você
-const resposta = 0; //insira o valor da final variável 'estudo' aqui
+const resposta = 20; //insira o valor da final variável 'estudo' aqui
 let estudo = 10;
 const multiplicador = 2;
 
 const clojure = () => {
-  estudo = 20;
+  estudo = 20; //esse valor é atribuido a variavel fora da função quando a mesma é chamada
   return () => {
-    let estudo = 25;
+    let estudo = 25; //esse valor é atribuido a variavel localmente e não pode ser chamado fora da função
   }
 }
 

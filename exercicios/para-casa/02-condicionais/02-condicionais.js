@@ -11,7 +11,8 @@ let adulto = false;
 let valorEntrada = 10;
 let valorMeiaEntrada;
 
-if (adulto) { // mexa apenas aqui
+if (!adulto) { // mexa apenas aqui
+  //foi adicionado o operador lógico para negação caso seja adulto
   valorMeiaEntrada = valorEntrada / 2;
 }
 

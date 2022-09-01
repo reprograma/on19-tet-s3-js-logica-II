@@ -4,21 +4,21 @@
   ex: const resposta = 5;
 */
 console.clear(); //Irá limpar o terminal para você
-const resposta = 0; //insira o valor da final variável 'estudo' aqui
+const resposta = 10; //insira o valor da final variável 'estudo' aqui
 let estudo = 10;
 const multiplicador = 2;
 
 const testar = (valor) => {
   if (valor === 5) {
-    let estudo = 11;
+    let estudo = 11;  
   } else {
-    estudo = 44;
+    estudo = 44; //as atribuições não causam impacto pois só é alterável dentro do escopo
   }
 }
 
 {
   let estudo = 5;
-  testar(estudo);
+  testar(estudo); //só funciona dentro do escopo
 }
 
 if (estudo === resposta) {
