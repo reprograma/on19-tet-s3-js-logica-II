@@ -4,14 +4,14 @@
   ex: const resposta = 5;
 */
 console.clear(); //Irá limpar o terminal para você
-const resposta = 0; //insira o valor da final variável 'estudo' aqui
+const resposta = 35; //insira o valor da final variável 'estudo' aqui
 let estudo = 10;
 const multiplicador = 2;
 
 if (estudo === 10) {
   estudo = 20;
   if (estudo === 20) {
-    estudo = 35;
+    estudo = 35; // como todas as demais afirmações são verdadeiras esse é ultimo valor válido
   } else {
     estudo = 14;
   }

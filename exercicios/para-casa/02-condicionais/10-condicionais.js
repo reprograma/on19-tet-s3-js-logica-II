@@ -11,8 +11,10 @@ const readline = require('readline').createInterface({
 });
 
 readline.question('\nQuanto é o valor a ser calculado?\n', valor => {
-
-  console.log(valor);
+   advValor(valor)
+   desconto1 = valor * 0.10
+   desconto2 = valor * 0.20
+  //console.log(valor);
 
   readline.close();
 });
@@ -21,3 +23,5 @@ readline.on('close', () => {
   console.log('\nObrigada comprar com a gente!');
   process.exit(0);
 });
+
+

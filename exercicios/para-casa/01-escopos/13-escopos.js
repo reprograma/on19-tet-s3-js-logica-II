@@ -4,8 +4,8 @@
   ex: const resposta = 5;
 */
 console.clear(); //Irá limpar o terminal para você
-const resposta = 0; //insira o valor da final variável 'estudo' aqui
-let estudo;
+const resposta = undefined; //insira o valor da final variável 'estudo' aqui
+let estudo; // como não foi declarado nenhum valor aqui e as demais váriáveis não são válidas o valor é undefined
 const multiplicador = 2;
 
 {
