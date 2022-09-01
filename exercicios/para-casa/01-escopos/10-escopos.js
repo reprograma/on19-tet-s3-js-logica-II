@@ -4,14 +4,14 @@
   ex: const resposta = 5;
 */
 console.clear(); //Irá limpar o terminal para você
-const resposta = 0; //insira o valor da final variável 'estudo' aqui
-let estudo = 10;
+const resposta = 10; //insira o valor da final variável 'estudo' aqui
+let estudo = 10; // resposta correta pois as outras atribuições não entram no escopo global
 const multiplicador = 2;
 
-if (estudo !== 10) {
-  let estudo = 20
+if (estudo !== 10) { // estritamente não igual, portanto não altera a variavel
+  let estudo = 20 // protegida
 } else {
-  const estudo = 0;
+  const estudo = 0; 
 }
 
 if (estudo === resposta) {

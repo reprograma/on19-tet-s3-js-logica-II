@@ -4,12 +4,13 @@
   ex: const resposta = 5;
 */
 console.clear(); //Irá limpar o terminal para você
-const resposta = 0; //insira o valor da final variável 'estudo' aqui
+const resposta = 4; //insira o valor da final variável 'estudo' aqui
 let estudo = 10;
 const multiplicador = 2;
 
 if (multiplicador === 2) {
-  estudo = 4;
+  estudo = 4; // resposta correta, ja que o multiplicador precisa ter o valor e o tipo = 2 (===), 
+              //fazendo assim a definição de estudo ser 4
 }
 
 if (multiplicador === 1) {
