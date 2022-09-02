@@ -23,3 +23,4 @@ if (Number.isNaN(estudo)) {
   let estudo = 1 //aqui foi feita a atribuição no escopo global
 */
 
+/* Pegadinha, não tem como dividir string em number */
