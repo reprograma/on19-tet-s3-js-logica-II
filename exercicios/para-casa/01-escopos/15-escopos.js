@@ -9,7 +9,9 @@ let estudo = 10;
 const multiplicador = 2;
 
 estudo = estudo * estudo / estudo + estudo + estudo + estudo * estudo - estudo / estudo * estudo / estudo + estudo + estudo + estudo * estudo - estudo / estudo * estudo / estudo + estudo + estudo + estudo * estudo - estudo / estudo * estudo / estudo + estudo + estudo + estudo * estudo - estudo / estudo * estudo / estudo + estudo + estudo + estudo * estudo - estudo / estudo * estudo / estudo + estudo + estudo + estudo * estudo - estudo / estudo * estudo / estudo + estudo + estudo + estudo * estudo - estudo / estudo * estudo / estudo + estudo + estudo + estudo * estudo - estudo / estudo * estudo / estudo + estudo + estudo + estudo * estudo - estudo / estudo * estudo / estudo + estudo + estudo + estudo * estudo - estudo / estudo;
+// variável estudo recebe o valor de várias operações aritiméticas entre si que resulta em 1200.
 
+console.log(estudo);
 {
   {
 
@@ -17,8 +19,9 @@ estudo = estudo * estudo / estudo + estudo + estudo + estudo * estudo - estudo /
   {
 
   }
-  estudo = "Acabou!";
-}
+  estudo = "Acabou!";// variável estudo (filha) altera valor da variável estudo para a string "Acabou
+ }
+
 
 if (estudo === resposta) {
   console.log("\nVocê acertou!\n");
