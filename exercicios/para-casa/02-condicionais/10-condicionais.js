@@ -12,7 +12,17 @@ const readline = require('readline').createInterface({
 
 readline.question('\nQuanto é o valor a ser calculado?\n', valor => {
 
-  console.log(valor);
+  let preco = valor;
+     if (preco >= 100 && preco <= 500) {
+        preco = valor - (valor* 0.1)
+        console.log("Seu desconto será de 10%, e o valor a pagar é de R$", preco.toFixed(2), "reais.")
+     }else if (preco >= 500) {
+        preco = valor - (valor* 0.2)
+        console.log("Seu desconto será de 20%, e o valor a pagar é de R$", preco.toFixed(2), "reais.") 
+     }
+   
+    
+       //console.log(valor);
 
   readline.close();
 });

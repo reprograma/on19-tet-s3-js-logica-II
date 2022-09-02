@@ -4,19 +4,26 @@
   ex: const resposta = 5;
 */
 console.clear(); //Irá limpar o terminal para você
+<<<<<<< HEAD
+const resposta = 20; //insira o valor da final variável 'estudo' aqui
+let estudo = 10;// variável estudo recebe valor global 10.
+const multiplicador = 2; // variável multiplicador recebe valor global constante 2.
+=======
 const resposta = 0; //insira o valor da final variável 'estudo' aqui
 let estudo = 10;
 const multiplicador = 2;
+>>>>>>> 80664b6b27e1b9bf25b9ac8f3a2bc56b3ef96a5a
 
-const clojure = () => {
-  estudo = 20;
-  return () => {
-    let estudo = 25;
+const clojure = () => { //criada função clojure
+  estudo = 20; //estudo recebe valor de 20
+  return () => { // retorna
+    let estudo = 25; // criada nova variaável estudo com valor de 25
   }
 }
 
-const funcaoDaFuncao = clojure();
-funcaoDaFuncao();
+const funcaoDaFuncao = clojure(); // criada variavel funçãoDaFunção que recebe a função clojure
+funcaoDaFuncao(); // função é chamada o que retorna valor de 20, uma vez que ela foi alterada pela função clojure.
+console.log(estudo);
 
 if (estudo === resposta) {
   console.log("\nVocê acertou!\n");

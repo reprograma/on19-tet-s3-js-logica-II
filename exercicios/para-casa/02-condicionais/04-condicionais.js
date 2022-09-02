@@ -4,15 +4,22 @@
   imprima que ele errou caso chutar qualquer outro número
 */
 
+const adivinha = (chute) => {
+  if(chute == 7) {
+      console.log("Eba! Você acertou.");
+  } else {
+      console.log("Você errou, tente mais uma vez.")
+  }
+
+}
 const readline = require('readline').createInterface({
   input: process.stdin,
   output: process.stdout
 });
 
 readline.question('\nChuta um número de um a dez!\n', chute => {
-
-  console.log(chute);
-
+  adivinha(chute);
+  //console.log(chute);
   readline.close();
 });
 
