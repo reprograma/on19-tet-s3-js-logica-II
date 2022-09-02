@@ -33,4 +33,7 @@ if (estudo === resposta) {
   Comente o código como foi a manipulação dos valores
   ex:
   let estudo = 1 //aqui foi feita a atribuição no escopo global
+
+  Resposta: Como foi atribuido Estudo = 10, uma variavel passivel de reatribuição e esta em escopo global, ela seguiu com varias modificações mediante aos calculos, mas no inicio foi 
+  reatribuída para 1 e ao final para 6, sendo igual e do mesmo tipo que a variavel Resposta.
 */

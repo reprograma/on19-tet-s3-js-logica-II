@@ -8,11 +8,15 @@ console.clear(); //Irá limpar o terminal para você
 const resposta = 20;
 const estudo = 10;
 
-if (estudo === resposta) { // mexa apenas aqui
+if (estudo !== resposta) { // mexa apenas aqui
   console.log("\nVocê acertou!\n");
 } else {
   console.log("\nTente de novo!\n");
 }
+
+// Estudo é diferente de resposta, apesar de ser do mesmo tipo.
+// Para cair no IF foi nescessário modificar o operador de comparação para estritamente não igual (!==)
+
 
 /*
   Você consegue justificar sua resposta?

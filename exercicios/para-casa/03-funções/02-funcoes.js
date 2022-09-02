@@ -12,7 +12,7 @@ const myArgs1 = myArgs[0];
 const myArgs2 = myArgs[1];
 
 const calcularDiasDeVida = (idade, nome) => { // É obrigatório usar essa função com os parâmetros
-  console.log(idade, nome);
+  let resposta = idade * 365
+  console.log(`Olá ${nome}, até hoje você viveu ${resposta.toLocaleString('pt-BR')} dias.`); //tocaleSrting é para inserir um ponto a cada 3 cadas decimais
 }
-
-calcularDiasDeVida(myArgs1, myArgs2);
+calcularDiasDeVida(38, "Djeisly");
