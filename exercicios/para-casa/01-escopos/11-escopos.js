@@ -32,3 +32,4 @@ if (estudo === resposta) {
   let estudo = 1 //aqui foi feita a atribuição no escopo global
 */
 
+/* cade a variavel valor? */
