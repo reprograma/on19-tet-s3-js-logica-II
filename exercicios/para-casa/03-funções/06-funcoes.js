@@ -5,14 +5,21 @@
   printar 31.4
 */
 
+console.clear();
+
 //Não se preocupe com essas três linhas, vamos aprender semana que vem.
 const myArgs = process.argv.slice(2);
 const myArgs1 = myArgs[0];
 
-const gerarFuncao = () => { // É obrigatório usar essa função com os parâmetros
+const gerarFuncao = () => {
   const PI = 3.14;
-  console.log(PI);
+  console.log("O valor de π é: "+ PI);
+  console.log("O diâmetro informado: " + myArgs1);
+  return myArgs1 * PI;
 }
 
-const calcularCircunferencia = gerarFuncao();
+const calcularCircunferencia = () => {
+  return console.log(`A circunferência do círculo é: ${gerarFuncao().toFixed(2)}`);
+};
+
 calcularCircunferencia(myArgs1);
