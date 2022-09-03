@@ -1,230 +1,95 @@
-<h1 align="center">
-  <img src="assets/reprograma-fundos-claros.png" alt="logo reprograma" width="500">
-</h1>
+# O que o operador de comparação == e === em JavaScript podem nos ensinar?
 
-# Tema da Aula
+##### Pensamento computacional, filosofia e aspiração pessoal
 
-Turma Online 19 - Todas em Tech  | Back-end | Semana 3 | 2022 | Professora Giu
+------
 
-## Instruções
+###### Escrito por Elisângela Manuel, uma *Deva Back-end* em formação
 
-Antes de começar, vamos organizar nosso setup.
+O que mais me encanta ao estudar lógica de programação, sem dúvidas, é a intenção de diminuir a complexidade dos problemas que precisamos resolver e fazer da "simplicidade" nossa maior aliada na busca de soluções. 
 
-* Fork esse repositório
-* Clone o fork na sua máquina (Para isso basta abrir o seu terminal e digitar `git clone url-do-seu-repositorio-forkado`)
-* Entre na pasta do seu repositório (Para isso basta abrir o seu terminal e digitar `cd nome-do-seu-repositorio-forkado`)
+Até mesmo porque já dizia Leonardo Da Vinci muitos séculos atrás:
 
-## Resumo
+> **"A simplicidade é a sofisticação máxima"** 
 
-O que veremos na aula de hoje?
+Isso, embora seja uma grande referência para mim, eu preciso admitir que é um grande desafio a ser superado nos dias de hoje.
 
-* Escopos
-* Estruturas condicionais
-* Funções
+E para você entender melhor onde eu quero chegar, eu vou apresentar apenas um resumo de como foi a **semana 3** da formação "<u>Todas em Tech</u>" da **{reprograma}**, sob a tutoria da monja e **Professora Giu**, para ficar evidente a complexidade que precisamos trabalhar atualmente:
 
-## Conteúdo
+- Aprender sobre escopos, estruturas condicionais e funções aplicadas na linguagem JavaScript numa velocidade super rápida, demandou termos processadores de última geração funcionando no nosso cérebro primitivo;
+- Ficar sob pressão durante as aulas foi vivido de forma bastante intensa e também muito diferente por cada uma de nós, alunas; e
+- Lidar com a frustração e saber se comunicar de forma assertiva com todas as presentes foi fundamental para preservar o bem-estar coletivo. 
 
-### Escopos
+------
 
-Ao conversarmos, não basta sabermos o significado das palavras, precisamos também entender o contexto daquilo que está sendo digo.
+Agora, imagina você, se além de termos que trabalhar tudo isso de uma vez, adicionarmos comparações entre nós, alunas? 
 
-Ás vezes, falamos frases a pessoas amigas, que não fariam o menor sentido para quem ouvir fora de seu círculo de amizade íntima.
+Vou falar mais detalhadamente sobre isso adiante. 
 
-A gente também costuma chamar de piada interna, aquela coisa que só tem graça porque está no contexto de nosso grupo de convívio.
+Antes, deixa eu explicar a minha visão sobre o operador de igualdade == . 
 
-Muitas linguagens de programação possuem coisa semelhante. São os escopos de variáveis.
+Em JavaScript, esse operador de igualdade pode causar um pouco de confusão quando o utilizamos para comparar valores de variáveis de tipos diferentes, porque esses valores podem ser considerados "iguais".
 
-Podemos ter um mesmo nome de variável em contextos diferentes em nossa aplicação, mas que não serão as mesmas variáveis e não conterão o mesmo valor.
+Deixa eu te dar um exemplo para ficar mais simples de compreender. 
 
-Veja o exemplo a seguir:
+Quando comparamos os valores de variáveis de tipo *undefined* com o tipo *null*, por exemplo, temos o resultado *true*. Isso acontece porque a lógica de "verdadeiro" e "falso" em JavaScript aceita, além dos valores booleanos *true* e *false*, outros valores de tipos de variáveis como "verdadeiro"/"falso". 
 
-```js
-const nome = "Joana";
+No nosso exemplo, *Undefined* tem resultado *false* e *null* também tem resultado *false*. Logo, *undefined* == *null*, corresponde a comparação de igualdade *false* == *false*.
 
-{
-  const nome = "Carla";
-  console.log(nome); //irá printar Carla
-}
+Por isso que fazer comparações com o operador == em JavaScript pode complicar um pouco as coisas. Retomando nosso exemplo de valores de tipos distintos: *undefined* == *null*, retorna *true*.
 
-console.log(nome); //irá printar Joana
+------
 
-```
+Agora, imagina você, se além de termos que trabalhar escopos, estruturas condicionais e funções tudo de uma vez, adicionarmos comparações entre nós, seres humanos?
 
-Note que só por estar dentro de chaves {} conseguimos declara um variável com o mesmo nome e que contem outro valor, sem a variável anterior perdesse o seu valor.
+Recapitulando, até aqui eu falei sobre pensamento computacional, muito útil para o desenvolvimento de softwares e aprendizado de máquinas. 
 
-A segunda variável ```nome```, declarada dentro das chaves, só existia dentro daquele contexto ou melhor, naquele escopo, já a primeira variável ```nome``` existe fora e dentro daquele escopo.
+Porém, quando se trata de nós, seres humanos, eu também quero trazer a perspectiva da filosofia estoica aplicada na vida real de carne e osso retratada na fala de Marco Aurélio:
 
-Podemos notar, que toda vez que é criado um novo escopo, ele acompanha o aparecimentos de chaves {}, veja:
+> **"A comparação é a morte da alegria"**
 
-```js
-if(true) { // aqui se abriu um novo escopo
+Cada uma de nós tem sua própria história repleta de significados e cheia de nuances tão particulares que é impossível fazer comparações. 
 
-}
+Ainda que o JavaScript possa nos influenciar a pensar que é possível encontrar o resultado "igual" ao comparar valores de variáveis de tipos diferentes, pelo bem-estar de nós mesmas, isso não é válido entre pessoas e não se aplica em matéria de nível de aprendizagem.
 
-function test () { // aqui também
+------
 
-}
+Por fim, meditar sobre tudo isso me faz chegar ao caminho da minha aspiração pessoal:
 
-for (let i; i < 10; i++) { //aqui também
+> **"A felicidade só pode ser encontrada dentro de nós"** Epicteto
 
-}
+Em outras palavras, aquilo que eu penso, sinto e faço diante das circunstâncias é e sempre será o meio para eu atingir o fim que é a alegria ou o estado de espírito que é a felicidade. Porque eu me torno quem eu sou através dos meus pensamentos, que por sua vez são criados a partir da minha metáfora sobre a vida: 
 
-```
+> **"A liberdade é o único objetivo que tem valor na vida. Nós a conquistamos deixando de lado as coisas que estão fora de nosso controle. Não podemos ter o coração leve se nossa mente é um poço lastimável de medos e ambições"** Epicteto
 
-Dessa forma, os escopos limitam a acessibilidade de uma variável, uma variável que foi definida num escopo menos abrangente não irá ser acessível no escopo mais abrangente.
+Simplificando a reflexão sobre mim, as minhas crenças implicam no escopo global dos meus pensamentos que podem oferecer um recorte menor ou um escopo local aos meus sentimentos que tem como resultado a concretização das minhas ações no mundo.
 
-Isso pode parecer contraproducente, mas isso evita que variáveis que utilizamos apenas dentro de pequenas funções ou condicionais não fiquem 'poluindo' toda nossa aplicação.
+------
 
-O conhecimento do funcionamento dos escopos é importante para sabermos como e onde criamos nossa estrutura de dados e entender todo o fluxo de um código.
+E se formos retomar a matéria de nível de aprendizagem, tão importante no bootcamp JavaScript Back-end da {reprograma} e, dessa vez, utilizar o aprendizado do operador de igualdade === , então, poderemos entender o porquê do processo educativo ser tão complexo para algumas e simples para outras. Isso depende do ponto de vista escolhido e da aspiração.
 
-[Vídeo: três escopos javascript](https://youtu.be/N9769LLwhKc);
+Atente que essa é a representação máxima da diversidade na nossa **turma On19**. E que a verdade seja dita a seguir.
 
-### Estruturas condicionais
+Somente aquelas pessoas que conseguiram **aprender a aprender**, isto é, que desenvolveram a habilidade de ensinar a si próprias, são as alunas que conseguem fazer qualquer coisa que imaginarem. 
 
-Talvez todas as linguagens de programação disponham de alguma forma de indicar uma escolha baseada em dados, no código.
+Porque essas alunas estão olhando para dentro de si e comparando consigo mesmas, " === ", onde podem melhorar para atribuir novos valores a sua própria variável. Ou seja, elas estão sempre referenciando a si próprias se preciso for comparar o que aprendeu ontem com o hoje. 
 
-Como você indicaria, para um computador, se ele deve aplicar meia entrada no cinema ou não? Talvez você pudesse ter um ser humano ali, para analisar os dados e decidir qual botão apertar, meia entrada ou entrada inteira.
+Portanto, quando você for estudar sobre estruturas de controle, especialmente instruções condicionais, lembre-se que o seu conhecimento e o aprendizado contínuo são conquistados assim:
 
-Mas sabemos que isso não nos ajudaria muito, então existe como indicarmos na programação se o código deve seguir por um caminho ou outro.
+> **(suaAtualVersao === quemVoceDecideSeTransformar) ? suaAtualVersao++ : suaAtualVersao = confiaNoProcessoDaVida**   
 
-Nós chamamos isso de ramificar o código, se a pessoa é estudante, aplique o desconto, se não é, cobre a entra inteira.
+Então é isso, espero que este README tenha te ajudado a ir além dos operadores de comparação na lógica de programação e que tenha simplificado o seu entendimento de que para tudo na vida existe o tempo de plantar e o tempo de colher. Identifique isso e fica em paz.
 
-De inicio pode parecer simples, mas imagine que podem aparecer muitas e muitas variáveis, além até do que um ser humano poderia ser capaz de avaliar. A pessoa é aposentada? A pessoa tem um cupom? A pessoa comprou antecipado? A pessoa veio num dia de promoção? E tantas outras coisas que se faz necessário conseguir escrever tudo isso em código, e o computador poder analisar tudo isso pra nós;
+E se tudo estiver dando errado neste momento, reatribua o valor da sua versão atual com o fortalecimento da sua confiança no processo da vida. Porque a nossa jornada rumo ao nível júnior de *Deva Back-end* está só começando. 
 
-Em javascript existe basicamente duas formas de indicar essa ramificação, veja o caso do [if...else](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/if...else):
+No final tudo dará certo, confia!
 
-```js
-  if (se a condição aqui for verdadeira) {
-    //então faça o que estiver aqui
-  } else if(se a condição anterior for falsa, mas essa verdadeira) {
-    //então faça essa ao invés daquela
-  } else {
-   // para todas as outras condições execute o que estiver aqui
-  }
-```
-
-Esse é o tradicional if...else if...else, em português serial algo como SE, SENÃO SE, SENÃO.
-
-```
-SE (o céu é azul) {
-  então diga bom dia
-} SENÃO SE (o céu tá nublado) {
-  então acho que vai chover
-} SENÃO {
-  então não sei, deve ser noite talvez
-}
-```
+Conte comigo para o que precisar e aproveita para me seguir também.
 
-Assim podemos especificar em quais CONDIÇÕES cada código deve ser executado.
-
-Outra forma no javascript para poder fazer isso para muitas condições é o [switch](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/switch), veja:
+Se faz sentido para você, já libera uma estrela aí ^.^
 
-```js
-const expr = 'Mamão';
-switch (expr) {
-  case 'Laranja':
-    console.log('Laranja está por R$ 5,33');
-    break;
-  case 'Mamão Doce':
-  case 'Mamão':
-    console.log('Mamão está custando R$ 3,73'); // esse será executado
-    break;
-  default:
-    console.log(`Desculpe, não temos ${expr}.`);
-}
+Beijo enorme pra você e até o próximo "blog post" rs
 
-```
+Com amor,
 
-Nesse caso, podemos especificar infinitas possibilidades para os "case" (casos), sem precisar criar um ```if``` para cada um deles.
-
-### Funções
-
-Funções nada mais são do que blocos de código, o qual você dá um nome e pode chamar esse bloco a qualquer momento, sem ter que reescrever todo o bloco.
-
-Imagine: Todo dia você faz arroz, você precisa fazer cada passo, escolher, lavar, temperar, colocar no fogo, esperar, servir. E se você pudesse só dizer "fazerArroz" e pronto, ele estaria ali na mesa prontinho?
-
-Funções são tarefas no código que usamos muitas vezes e por isso damos nomes a elas, para poder executar sempre que for necessário.
-
-Agora num exemplo de código, te pediram para verificar se o usuário é adulto, tem cartão, tem passaporte, tem assinatura, mas essa verificação precisa ser feita em vários lugares no código, veja o que lhe parece mais apropriado:
-
-```js
-if(idade >=18 && assinatura && cartao && passaport) {
-  // dar desconto
-}
-
-// ou isso
-
-const usuarioLiberado = () = {
-  return idade >=18 && assinatura && cartao && passaport
-}
-
-if (usuarioLiberado) { // fica melhor de entender e escrever
-  //dar desconto
-}
-
-```
-
-Agora imagine que o que faz o usuário ser liberado ou não fosse bem mais complicado que isso, imagine ter que copiar e colar em todos os ifs? Seria horrível e pior, se algo mudasse na lógica de liberação, você teria que ir em todos os locais do código e alterar cada if desse.
-
-Funções são como tijolos na nossa construção, depois de construirmos os tijolos, não há necessidade de fazer outro, podemos usar esses tijolos para construir paredes, e depois usamos as paredes para construir casas, fica tudo mais fácil. Assim não precisamos fabricar cada tijolo da nossa casa ou reescrever o mesmo código na nossa aplicação.
-
-Mas não é só isso, é ainda melhor!
-
-Podemos escrever funções que agem diferente de acordo com o que recebem de argumentos, ou seja, o dados de entrada de uma função, veja:
-
-```js
-const calculaDiaDaSemana (dia) => {
-  switch (dia) {
-    case 1:
-      console.log('Domingo);
-      break;
-    case 2:
-      console.log('Segunda);
-      break;
-    case 3:
-      console.log('Terça');
-      break;
-    case 4:
-      console.log('Quarta');
-      break;
-    case 5:
-      console.log('Quinta');
-      break;
-    case 6:
-      console.log('Sexta');
-      break;
-    case 7:
-      console.log('Sábado);
-      break;
-    default:
-      console.log('Não sei esse dia');
-  }
-}
-
-calculaDiaDaSemana(1); // irá imprimir Domingo
-```
-
-Nesse caso, a função também utiliza dentro dela um condicional, dessa forma, pode resultar numa resposta dependendo da entrada ```dia``` tornando ainda mais poderosas.
-
-[Mais sobre funções](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Functions)
-
-### Exercícios
-
-* [Exercício para casa](/exercicios/para-casa/)
-
-## Links Úteis
-
-* [Documentação Javascript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
-* [JEP: explorador com exemplos](https://jep.vercel.app/)
-
-## Links da prof
-
-* [Todos os Links](https://giuzambot.bio.link/)
-* [LinkedIn](https://www.linkedin.com/in/giuzambot/)
-* [GitHub](https://github.com/giuzambot)
-
-<center>
-
-Desenvolvido com :purple_heart:
-
-</center>
+Elisângela Manuel (Elis Brasil)
