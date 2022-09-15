@@ -5,7 +5,7 @@
 */
 console.clear(); //Irá limpar o terminal para você
 const resposta = 10; //insira o valor da final variável 'estudo' aqui
-let estudo = 10;
+let estudo = 10; //aqui foi feita a atribuição no escopo global --> as outras estão todas dentro de um escopo fechado.
 const multiplicador = 2;
 
 const testar = (valor) => {
