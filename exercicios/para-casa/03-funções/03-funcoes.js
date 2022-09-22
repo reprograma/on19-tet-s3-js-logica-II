@@ -11,7 +11,8 @@ const myArgs1 = myArgs[0];
 const myArgs2 = myArgs[1];
 
 const converterRealParaDolar = (reais, cotação) => { // É obrigatório usar essa função com os parâmetros
-  console.log(reais, cotação);
+  let perderDinheiro = +reais / cotação
+  console.log(`O valor em Dolar é de R$ ${perderDinheiro.toFixed(2)}`);
 }
 
 converterRealParaDolar(myArgs1, myArgs2);

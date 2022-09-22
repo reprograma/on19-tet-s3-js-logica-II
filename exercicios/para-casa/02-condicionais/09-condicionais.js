@@ -14,7 +14,8 @@ const readline = require('readline').createInterface({
 
 readline.question('\nVamos ver se vc passou! Qual a primeira nota?\n', nota1 => {
   readline.question('\nQual a segunda nota?\n', nota2 => {
-     media(nota1, nota2)
+     
+    media(nota1, nota2)
     
 
     readline.close();
@@ -27,9 +28,9 @@ readline.on('close', () => {
 });
 
 const media = (nota1, nota2) => { 
-  if(+nota1 + +nota2 /2 >= 6){
+  if((+nota1 + +nota2) /2 >= 6){
     console.log('Aprovado')
-  }else if(+nota1 + +nota2 /2 === 5) {
+  }else if((+nota1 + +nota2) /2 === 5) {
     console.log('Recuperação')
   }else {
     console.log('Reprovado')

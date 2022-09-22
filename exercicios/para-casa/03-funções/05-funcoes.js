@@ -10,7 +10,13 @@ const myArgs = process.argv.slice(2);
 const myArgs1 = myArgs[0];
 
 const funcaoRecursiva = (numero1) => { // É obrigatório usar essa função com os parâmetros
-  console.log(numero1);
+  let number = +numero1;
+  for (let i = 1; i< +numero1; i++) {
+     number += i;
+    
+  }
+  console.log(number);
 }
+
 
 funcaoRecursiva(myArgs1);

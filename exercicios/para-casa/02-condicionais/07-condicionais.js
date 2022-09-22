@@ -10,7 +10,7 @@ const readline = require('readline').createInterface({
 });
 
 readline.question('\nQuando anos você tem?\n', idade => {
-  readline.question('\nVocê é estudante? (Sim, Não)\n', estudante => {
+  readline.question('\nVocê é estudante? (1- Sim , 2- Não)\n', estudante => {
     advMeia(idade, estudante)
     //console.log(idade, estudante);
 
@@ -24,7 +24,7 @@ readline.on('close', () => {
 });
 
 const advMeia = (idade, estudante) => { 
-  if (+idade < 18  || +estudante === 'sim' ){
+  if (+idade < 18  || estudante === "1" ){
     console.log('Você tem direito a meia entrada')
   }else {
     console.log('Você não tem direito a meia entrada')

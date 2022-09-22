@@ -12,9 +12,7 @@ const readline = require('readline').createInterface({
 
 readline.question('\nQuanto é o valor a ser calculado?\n', valor => {
    advValor(valor)
-   desconto1 = valor * 0.10
-   desconto2 = valor * 0.20
-  //console.log(valor);
+  
 
   readline.close();
 });
@@ -24,4 +22,16 @@ readline.on('close', () => {
   process.exit(0);
 });
 
+const advValor = (valor) => {
+  if(+valor >= 100 && + valor < 500) {
+  let desconto = +valor * 0.10;
+  const valorFinal = +valor - desconto;
+  console.log(`O valor do desconto foi de R$ ${desconto} e o valor a pagar foi de R$ ${valorFinal}`);
+  } else {
+    let desconto2 =  +valor * 0.2;
+    const valorFinal2 = +valor - desconto2
+    console.log(`O valor do desconto foi de R$ ${desconto2} e o valor a pagar é de R$ ${valorFinal2}`)
+  }
+}
 
+  
