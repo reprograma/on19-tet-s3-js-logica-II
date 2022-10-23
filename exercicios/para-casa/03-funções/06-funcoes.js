@@ -12,6 +12,12 @@ const myArgs1 = myArgs[0];
 const gerarFuncao = () => { // É obrigatório usar essa função com os parâmetros
   const PI = 3.14;
   console.log(PI);
+
+  return function circularCircunferencia(diametro) {
+    const circunferência = PI * diametro
+    console.log(circunferência.toFixed(1));
+  }
+  
 }
 
 const calcularCircunferencia = gerarFuncao();
