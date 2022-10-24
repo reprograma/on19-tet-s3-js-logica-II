@@ -8,14 +8,16 @@ console.clear(); //Irá limpar o terminal para você
 const resposta = 20;
 const estudo = 10;
 
-if (estudo === resposta) { // mexa apenas aqui
+if (estudo !== resposta) { // mexa apenas aqui
   console.log("\nVocê acertou!\n");
 } else {
   console.log("\nTente de novo!\n");
 }
 
 /*
-  Você consegue justificar sua resposta?
+  Você consegue justificar sua resposta? O VALOR DE ESTUDO NÃO TEM TIPO NEM VALOR IGUAL DA RESPOSTA, 
+  POR ISSO USEI O OPERADOR ESTRITAMENTE NÃO IGUAL. 
+  
   Comente o código como foi a manipulação dos valores
   ex:
   if (estudo !== resposta) { //as variáveis devem ser diferentes para entrar no if

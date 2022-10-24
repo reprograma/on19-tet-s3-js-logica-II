@@ -4,23 +4,23 @@
   ex: const resposta = 5;
 */
 console.clear(); //Irá limpar o terminal para você
-const resposta = 0; //insira o valor da final variável 'estudo' aqui
+const resposta = 6; //insira o valor da final variável 'estudo' aqui
 let estudo = 10;
 const multiplicador = 2;
 
 estudo = 1;
 
-estudo = multiplicador * estudo;
+estudo = multiplicador * estudo; 
 
-estudo = estudo * estudo / estudo;
+estudo = estudo * estudo / estudo; 
 
-estudo = estudo - multiplicador;
+estudo = estudo - multiplicador; 
 
-estudo += 2;
+estudo += 2; 
 
 estudo /= 2;
 
-estudo = 6;
+estudo = 6; // é a resposta correta pois foi o ultimo numero atribuido ao escopo
 
 if (estudo === resposta) {
   console.log("\nVocê acertou!\n");
