@@ -12,7 +12,7 @@ let valorMeiaEntrada;
 let adulto = true;
 let estudante = true;
 const condicional = () => estudante || adulto; // <=== mexa apenas aqui
-if (condicional()) {
+if (condicional(estudante)) {
   valorMeiaEntrada = valorEntrada / 2;
 } else {
   valorMeiaEntrada = valorEntrada;

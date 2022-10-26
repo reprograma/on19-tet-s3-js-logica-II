@@ -10,8 +10,10 @@ const myArgs = process.argv.slice(2);
 const myArgs1 = myArgs[0];
 const myArgs2 = myArgs[1];
 
-const converterRealParaDolar = (reais, cotação) => { // É obrigatório usar essa função com os parâmetros
-  console.log(reais, cotação);
+const converterRealParaDolar = (reais, cotacao) => { // É obrigatório usar essa função com os parâmetros
+  const reais = 5.38
+  const cotacao = 10 / 5.38
+  console.log(cotacao);
 }
 
 converterRealParaDolar(myArgs1, myArgs2);

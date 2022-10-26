@@ -12,7 +12,14 @@ const readline = require('readline').createInterface({
 
 readline.question('\nQuanto é o valor a ser calculado?\n', valor => {
 
-  console.log(valor);
+  if (valor > +500 ) {
+    let novoValor = valor - (valor* 0.2);
+    console.log(`O valor com desconto é ${novoValor}`);
+
+  } else if (valor > +100) {
+    let novoValor = valor - (valor * 0.1)
+    console.log(`O valor com desconto é ${novoValor}`);
+  }
 
   readline.close();
 });

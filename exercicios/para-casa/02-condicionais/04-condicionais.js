@@ -11,7 +11,12 @@ const readline = require('readline').createInterface({
 
 readline.question('\nChuta um número de um a dez!\n', chute => {
 
-  console.log(chute);
+  if (chute == 7) {
+    console.log("Acertô, miseravi");
+  }else {
+    console.log("EROOOUUU (voz do faustão)");
+  }
+ 
 
   readline.close();
 });
