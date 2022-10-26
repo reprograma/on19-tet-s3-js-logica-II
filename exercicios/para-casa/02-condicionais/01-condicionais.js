@@ -6,7 +6,7 @@
 console.clear(); //Irá limpar o terminal para você
 
 const resposta = 20;
-const estudo = 10;
+const estudo = 20;
 
 if (estudo === resposta) { // mexa apenas aqui
   console.log("\nVocê acertou!\n");
