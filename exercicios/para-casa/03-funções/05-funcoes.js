@@ -17,13 +17,10 @@ const funcaoRecursiva = (numero1) => { // É obrigatório usar essa função com
   function foo (vezes, atual) {
       if (atual < vezes) {
       atual++;
-        //console.log(atual)
         foo (vezes, atual);
     } else {
       return atual;  
     }
-    //reveso
-    //console.log(somatoria += atual)
     somatoria += atual
 }
 foo(numero1,0);
