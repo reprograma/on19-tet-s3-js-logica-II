@@ -13,6 +13,11 @@ readline.question('\nQuando anos você tem?\n', idade => {
   readline.question('\nVocê é estudante? (Sim, Não)\n', estudante => {
 
     console.log(idade, estudante);
+    if (+idade < 18 || estudante.toLowerCase() == 'sim') {
+      console.log("Legal, você tem direito a meia entrada");
+    } else {
+      console.log("Que pena, você não tem esse direito");
+    }
 
     readline.close();
   });

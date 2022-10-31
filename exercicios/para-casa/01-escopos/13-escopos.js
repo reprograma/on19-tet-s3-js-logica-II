@@ -4,8 +4,8 @@
   ex: const resposta = 5;
 */
 console.clear(); //Irá limpar o terminal para você
-const resposta = 0; //insira o valor da final variável 'estudo' aqui
-let estudo;
+const resposta = undefined; //insira o valor final da variável 'estudo' aqui
+let estudo; //aqui foi somente declarada a variável 'estudo' sem inicializar seu valor, recebendo como default o tipo da dados primitivo undefined
 const multiplicador = 2;
 
 {

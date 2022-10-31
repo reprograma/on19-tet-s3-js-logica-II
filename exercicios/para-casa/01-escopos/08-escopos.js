@@ -4,12 +4,12 @@
   ex: const resposta = 5;
 */
 console.clear(); //Irá limpar o terminal para você
-const resposta = 0; //insira o valor da final variável 'estudo' aqui
+const resposta = 4; //insira o valor final da variável 'estudo' aqui
 let estudo = 10;
 const multiplicador = 2;
 
 if (multiplicador === 2) {
-  estudo = 4;
+  estudo = 4; //aqui foi feita a reatribuição no escopo global
 }
 
 if (multiplicador === 1) {

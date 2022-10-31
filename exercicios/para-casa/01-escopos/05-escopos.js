@@ -4,7 +4,7 @@
   ex: const resposta = 5;
 */
 console.clear(); //Irá limpar o terminal para você
-const resposta = 0; //insira o valor da final variável 'estudo' aqui
+const resposta = 3; //insira o valor final da variável 'estudo' aqui
 let estudo = 10;
 const multiplicador = 2;
 
@@ -18,7 +18,7 @@ const multiplicador = 2;
 }
 
 {
-  estudo = 3;
+  estudo = 3; //aqui foi referenciada a variável global 'estudo' e alterado o seu valor no escopo local da linha 21, pois não foi declarada a variável 'estudo' com a palavra reservada "let", tornando a nova atribuição visível no escopo global
   {
     let estudo = "Olá!";
   }

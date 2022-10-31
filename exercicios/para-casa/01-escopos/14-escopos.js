@@ -4,11 +4,11 @@
   ex: const resposta = 5;
 */
 console.clear(); //Irá limpar o terminal para você
-const resposta = 0; //insira o valor da final variável 'estudo' aqui
+const resposta = NaN; //insira o valor final da variável 'estudo' aqui
 let estudo = 10;
 const multiplicador = 2;
 
-estudo = "Olá" / 500;
+estudo = "Olá" / 500; //aqui foi feita a atribuição no escopo global e o tipo foi modificado com a estrutura condicional if que recebeu como parâmetro o método Number.isNaN
 
 if (Number.isNaN(estudo)) {
   console.log("\nVocê acertou!\n");

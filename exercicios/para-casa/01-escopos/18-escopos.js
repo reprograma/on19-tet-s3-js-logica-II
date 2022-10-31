@@ -4,12 +4,12 @@
   ex: const resposta = 5;
 */
 console.clear(); //Irá limpar o terminal para você
-const resposta = 0; //insira o valor da final variável 'estudo' aqui
+const resposta = 20; //insira o valor final da variável 'estudo' aqui
 let estudo = 10;
 const multiplicador = 2;
 
 const clojure = () => {
-  estudo = 20;
+  estudo = 20; //aqui foi feita a reatribuição do escopo global ao ser executada a funcaoDaFuncao
   return () => {
     let estudo = 25;
   }
