@@ -1,10 +1,13 @@
 /*
+
+
+
   Não altere nada no código, apenas adicione um valor a variável 'resposta'!
   Execute o código e veja se acertou no terminal
   ex: const resposta = 5;
 */
 console.clear(); //Irá limpar o terminal para você
-const resposta = 0; //insira o valor da final variável 'estudo' aqui
+const resposta = 6; //insira o valor da final variável 'estudo' aqui
 let estudo = 10;
 const multiplicador = 2;
 
