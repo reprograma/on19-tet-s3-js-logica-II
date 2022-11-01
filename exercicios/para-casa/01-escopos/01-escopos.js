@@ -1,9 +1,4 @@
 /*
-                     Teacher, você é maravilhosa e sua aula incrível, mas realmente tive muita dificuldade
-                     com o assunto e ainda estou tentando assimilar. Estou mandando o exercício 
-                     mesmo não respondendo pra que você saiba que tentei pelo menos e vou continuar
-                     tentando. DESCULPAS! <3 
-
 
 
 
@@ -12,7 +7,7 @@
   ex: const resposta = 5;
 */
 console.clear(); //Irá limpar o terminal para você
-const resposta = 0; //insira o valor da final variável 'estudo' aqui
+const resposta = 6; //insira o valor da final variável 'estudo' aqui
 let estudo = 10;
 const multiplicador = 2;
 
