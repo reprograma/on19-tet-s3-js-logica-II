@@ -6,27 +6,24 @@
 */
 
 //Não se preocupe com essas três linhas, vamos aprender semana que vem.
-const myArgs = process.argv.slice(2);
-const myArgs1 = myArgs[0];
-
-let sum = 0
-let index = -1
+//const myArgs = process.argv.slice(2);
+//const myArgs1 = myArgs[0];
 
 const funcaoRecursiva = (numero1) => { // É obrigatório usar essa função com os parâmetros
-
-  if (index == -1){
-    index = Number(numero1)
-    funcaoRecursiva(index)
-  }
-  else if (index != 0){
-    sum += index
-    index -= 1
-    funcaoRecursiva(index)
+  let soma = 0;
+  let paraSomar
+  if (numero1 > 0) {
+    paraSomar = funcaoRecursiva(numero1 - 1)
   }
   else {
-    console.log (sum)
-  }
-}
+    paraSomar = numero1
+  };
+  soma += paraSomar + numero1;
+  console.log(soma, numero1)
+  return soma;
+};
 
 
-funcaoRecursiva(myArgs1);
+
+const total = funcaoRecursiva(5);
+console.log(total)
